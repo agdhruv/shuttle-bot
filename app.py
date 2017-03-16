@@ -39,20 +39,27 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    if message_text=="SOMETHING":
+                    if message_text=="SHUTTLE HELP":
+                        message_text = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
+
+                    if message_text=="SHUTTLE CAMPUS":
 
                         # Get current time - time at which message has been received by this script
                         from datetime import datetime, timedelta
                         my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
+                        my_day = my_time.strftime('%A')
 
                         # Start generating return message:
-                        return_message = "The request was received at " + my_time.strftime('%H:%M') + "\n"
+                        return_message = "The request was received at " + my_time.strftime('%A, %H:%M') + ".\n"
 
                         # Convert to integer
                         my_time = int(my_time.strftime('%H%M'))
 
                         # Make list with times of shuttles
-                        times_campus = [630,700,730,800,820,845,900,930,1000,1100,1200,1300,1400,1500,1600,1630,1700,1720,1740,1800,1820,1840,1900,1930,2000,2030,2100,2200,-1]
+                        if my_day=="Saturday" or my_day=="Sunday":
+                            times_campus = [700,730,800,830,900,930,1000,1030,1100,1130,1200,1230,1300,1400,1500,1600,1700,1730,1800,1830,1900,2000,2100,2200,-1]
+                        else:
+                            times_campus = [630,700,730,800,820,845,900,930,1000,1100,1200,1300,1400,1500,1600,1630,1700,1720,1740,1800,1820,1840,1900,1930,2000,2030,2100,2200,-1]
 
                         # Use binary search to search for next 3 shuttles
                         low = 0
