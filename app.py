@@ -40,9 +40,10 @@ def webhook():
                     message_text = messaging_event["message"]["text"]  # the message's text
 
                     if message_text=="SHUTTLE HELP":
-                        message_text = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
-
-                    if message_text=="SHUTTLE CAMPUS":
+                        return_message = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
+                        send_message(sender_id, return_message)
+                    
+                    elif message_text=="SHUTTLE CAMPUS":
 
                         # Get current time - time at which message has been received by this script
                         from datetime import datetime, timedelta
@@ -86,7 +87,9 @@ def webhook():
                             next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
                             return_message += "\n" + next_shuttle
 
+                        # Finally send the message
                         send_message(sender_id, return_message)
+
                     else:
                         send_message(sender_id, "Don't know what you are talking about.")
 
