@@ -52,7 +52,7 @@ def webhook():
                         my_day = my_time.strftime('%A')
 
                         # Start generating return message:
-                        return_message = "The request was received at " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run at:"
+                        return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run at:"
 
                         # Convert to integer
                         my_time = int(my_time.strftime('%H%M'))
@@ -100,7 +100,7 @@ def webhook():
                         my_day = my_time.strftime('%A')
 
                         # Start generating return message:
-                        return_message = "The request was received at " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run at:"
+                        return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run at:"
 
                         # Convert to integer
                         my_time = int(my_time.strftime('%H%M'))
