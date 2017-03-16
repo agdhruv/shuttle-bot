@@ -43,7 +43,7 @@ def webhook():
                     if message_text=="SOMETHING":
                         # Make list with times of shuttles
                         # times_campus = [630,700,730,800,820,845,900,930,1000,1100,1200,1300,1400,1500]
-                        send_message(sender_id, "what i expected"+ message_time)
+                        send_message(sender_id, "what i expected"+ str(message_time))
                     else:
                         send_message(sender_id, "Don't know what you are talking about.")
 
