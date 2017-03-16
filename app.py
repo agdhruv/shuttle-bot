@@ -18,7 +18,7 @@ def verify():
             return "Verification token mismatch", 403
         return request.args["hub.challenge"], 200
 
-    return 'Hello world<br><a href="privacy_policy.txt">Privacy Policy</a>', 200
+    return '<u>Privacy Policy</u><br><br>This app does not collect ANY personal data from the users. The use of the app is such that it does not require any data from the users to give out the intended information.<br><br>Owner Information:<br>Dhruv Agarwal, Student<br>Ashoka University, Sonepat, Haryana, India<br>Email ID: dhruv_agarwal@live.com', 200
 
 
 @app.route('/', methods=['POST'])
