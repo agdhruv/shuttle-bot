@@ -12,8 +12,9 @@ app = Flask(__name__)
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
     # the 'hub.challenge' value it receives in the query arguments
+    token = "EAAELrXkFF6MBAAibk461aGn1kvbwCjrVwPp4uwZAb6JoJQhBSwfPAZBqRdI9fjqJ1ueHwc7TRtR9CPcm8zUl3ZAwOZAJ6zG4XGIZA22qgwBq21K0JyvoHpSVxikJggUmZB4hlLKjwOTR0nAZBvraMsrDfZBbN8d8kcPZBOzu0eZBPIZBAZDZD"
     if request.args.get("hub.mode") == "subscribe" and request.args.get("hub.challenge"):
-        if not request.args.get("hub.verify_token") == os.environ["VERIFY_TOKEN"]:
+        if not request.args.get("hub.verify_token") == token:
             return "Verification token mismatch", 403
         return request.args["hub.challenge"], 200
 
