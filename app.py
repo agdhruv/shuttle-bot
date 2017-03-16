@@ -38,9 +38,12 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     message_text = messaging_event["message"]["text"]  # the message's text
+                    message_time = entry["time"] # time at which message was sent
 
                     if message_text=="SOMETHING":
-                        send_message(sender_id, "what i expected")
+                        # Make list with times of shuttles
+                        # times_campus = [630,700,730,800,820,845,900,930,1000,1100,1200,1300,1400,1500]
+                        send_message(sender_id, "what i expected"+ message_time)
                     else:
                         send_message(sender_id, "Don't know what you are talking about.")
 
