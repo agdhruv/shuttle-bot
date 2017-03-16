@@ -3,10 +3,13 @@ import sys
 import json
 
 import requests
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 
 app = Flask(__name__)
 
+@app.route('/<path:path>')
+def send_txt(path):
+    return send_from_directory('', path)
 
 @app.route('/', methods=['GET'])
 def verify():
@@ -18,7 +21,7 @@ def verify():
             return "Verification token mismatch", 403
         return request.args["hub.challenge"], 200
 
-    return '<u>Privacy Policy</u><br><br>This app does not collect ANY personal data from the users. The use of the app is such that it does not require any data from the users to give out the intended information.<br><br>Owner Information:<br>Dhruv Agarwal, Student<br>Ashoka University, Sonepat, Haryana, India<br>Email ID: dhruv_agarwal@live.com', 200
+    return 'Hello World', 200
 
 
 @app.route('/', methods=['POST'])
