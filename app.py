@@ -12,7 +12,7 @@ app = Flask(__name__)
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
     # the 'hub.challenge' value it receives in the query arguments
-    token = "EAAELrXkFF6MBAAibk461aGn1kvbwCjrVwPp4uwZAb6JoJQhBSwfPAZBqRdI9fjqJ1ueHwc7TRtR9CPcm8zUl3ZAwOZAJ6zG4XGIZA22qgwBq21K0JyvoHpSVxikJggUmZB4hlLKjwOTR0nAZBvraMsrDfZBbN8d8kcPZBOzu0eZBPIZBAZDZD"
+    token = "hello_my_name_is_dhruv_agarwal"
     if request.args.get("hub.mode") == "subscribe" and request.args.get("hub.challenge"):
         if not request.args.get("hub.verify_token") == token:
             return "Verification token mismatch", 403
@@ -59,7 +59,7 @@ def send_message(recipient_id, message_text):
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
 
     params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        "access_token": 'EAAELrXkFF6MBAAibk461aGn1kvbwCjrVwPp4uwZAb6JoJQhBSwfPAZBqRdI9fjqJ1ueHwc7TRtR9CPcm8zUl3ZAwOZAJ6zG4XGIZA22qgwBq21K0JyvoHpSVxikJggUmZB4hlLKjwOTR0nAZBvraMsrDfZBbN8d8kcPZBOzu0eZBPIZBAZDZD'
     }
     headers = {
         "Content-Type": "application/json"
