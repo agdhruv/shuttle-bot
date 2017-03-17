@@ -145,10 +145,12 @@ def webhook():
                         send_message(sender_id, return_message)
 
                     else:
-                        pass
+                        # For the shitty Facebook review process
+                        return_message = "Invalid command. Use SHUTTLE HELP to know more commands."
+                        send_message(sender_id, return_message)
 
                 if messaging_event.get("delivery"):  # delivery confirmation
-                    pass
+                    # OPEN number_of_messages_sent.txt and update the value there
 
                 if messaging_event.get("optin"):  # optin confirmation
                     pass
