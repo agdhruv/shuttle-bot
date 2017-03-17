@@ -150,7 +150,7 @@ def webhook():
                         send_message(sender_id, return_message)
 
                 if messaging_event.get("delivery"):  # delivery confirmation
-                    # OPEN number_of_messages_sent.txt and update the value there
+                    pass
 
                 if messaging_event.get("optin"):  # optin confirmation
                     pass
