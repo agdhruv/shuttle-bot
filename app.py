@@ -42,12 +42,12 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    if message_text=="SHUTTLE HELP":
+                    if message_text.upper()=="SHUTTLE HELP":
                         return_message = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
                         send_message(sender_id, return_message)
                     
                     # Configure to tell you schedule at Campus
-                    elif message_text=="SHUTTLE CAMPUS":
+                    elif message_text.upper()=="SHUTTLE CAMPUS":
 
                         # Get current time - time at which message has been received by this script
                         from datetime import datetime, timedelta
@@ -95,7 +95,7 @@ def webhook():
                         send_message(sender_id, return_message)
 
                     # Configure to tell you schedule at Jahangirpuri Metro Station
-                    elif message_text=="SHUTTLE METRO":
+                    elif message_text.upper()=="SHUTTLE METRO":
 
                         # Get current time - time at which message has been received by this script
                         from datetime import datetime, timedelta
