@@ -43,8 +43,7 @@ def webhook():
 
                     message_text = message_text.upper() # convert to uppercase to make things easier
 
-                    '''THIS POINT ONWARDS FOR THE SHUTTLE PART OF THE APPLICATION'''
-
+                    ######## THIS POINT ONWARDS FOR THE SHUTTLE PART OF THE APPLICATION ########
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if (message_text=="SHUTTLE HELP") or (message_text=="SHUTTLE CAMPUS") or (message_text=="SHUTTLE METRO"):
 
@@ -149,10 +148,8 @@ def webhook():
 
                             # Finally send the message
                             send_message(sender_id, return_message)
-
-
-                    '''THIS POINT ONWARDS FOR THE MENU PART OF THE APPLICATION'''
-
+            
+                    ######## THIS POINT ONWARDS FOR THE MENU PART OF THE APPLICATION ########
                     # First check if the menu of any meal has been asked
                     elif (message_text == "MENU BREAKFAST") or (message_text == "MENU LUNCH") or (message_text == "MENU SNACKS") or (message_text == "MENU DINNER"):
                         meal_asked = message_text[5:]
