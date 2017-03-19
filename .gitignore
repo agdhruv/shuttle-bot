@@ -1,7 +1,0 @@
-*.pyc
-.*
-bot-env/
-model-menu.csv
-model-menu.xlsx
-try-menu.csv
-checker.py
