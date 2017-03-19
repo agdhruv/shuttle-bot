@@ -23,7 +23,6 @@ def verify():
 
     return 'Hello World', 200
 
-
 @app.route('/', methods=['POST'])
 def webhook():
 
@@ -42,104 +41,205 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    if message_text.upper()=="SHUTTLE HELP":
-                        return_message = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
-                        send_message(sender_id, return_message)
-                    
-                    # Configure to tell you schedule at Campus
-                    elif message_text.upper()=="SHUTTLE CAMPUS":
+                    message_text = message_text.upper() # convert to uppercase to make things easier
 
-                        # Get current time - time at which message has been received by this script
+                    '''THIS POINT ONWARDS FOR THE SHUTTLE PART OF THE APPLICATION'''
+
+                    # First check if the message sent is any of the 3 SHUTTLE commands
+                    if (message_text=="SHUTTLE HELP") or (message_text=="SHUTTLE CAMPUS") or (message_text=="SHUTTLE METRO"):
+
+                        if message_text=="SHUTTLE HELP":
+                            return_message = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
+                            send_message(sender_id, return_message)
+                        
+                        # Configure to tell you schedule at Campus
+                        elif message_text=="SHUTTLE CAMPUS":
+
+                            # Get current time - time at which message has been received by this script
+                            from datetime import datetime, timedelta
+                            my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
+                            my_day = my_time.strftime('%A')
+
+                            # Start generating return message:
+                            return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run from Ashoka to Jahangirpuri at:"
+
+                            # Convert to integer
+                            my_time = int(my_time.strftime('%H%M'))
+
+                            # Make list with times of shuttles
+                            if my_day=="Saturday" or my_day=="Sunday":
+                                times_campus = [700,730,800,830,900,930,1000,1030,1100,1130,1200,1230,1300,1400,1500,1600,1700,1730,1800,1830,1900,2000,2100,2200,-1]
+                            else:
+                                times_campus = [630,700,730,800,820,845,900,930,1000,1100,1200,1300,1400,1500,1600,1630,1700,1720,1740,1800,1820,1840,1900,1930,2000,2030,2100,2200,-1]
+
+                            # Use binary search to search for next 3 shuttles
+                            low = 0
+                            high = len(times_campus) - 1
+
+                            toCheck = my_time
+
+                            while low<high:
+                                mid = (low + high)/2
+                                if times_campus[mid]==toCheck:
+                                    low = mid
+                                    break
+                                elif times_campus[mid]>toCheck:
+                                    high = mid
+                                elif times_campus[mid]<toCheck:
+                                    low = mid + 1
+                            ans_index = low
+
+                            for i in range(low,low+3):
+                                if times_campus[i] == -1:
+                                    return_message += "\nNo more shuttles today."
+                                    break
+                                next_shuttle = str(times_campus[i])
+                                next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
+                                return_message += "\n" + next_shuttle
+
+                            # Finally send the message
+                            send_message(sender_id, return_message)
+
+                        # Configure to tell you schedule at Jahangirpuri Metro Station
+                        elif message_text=="SHUTTLE METRO":
+
+                            # Get current time - time at which message has been received by this script
+                            from datetime import datetime, timedelta
+                            my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
+                            my_day = my_time.strftime('%A')
+
+                            # Start generating return message:
+                            return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run from Jahangirpuri to Ashoka at:"
+
+                            # Convert to integer
+                            my_time = int(my_time.strftime('%H%M'))
+
+                            # Make list with times of shuttles
+                            if my_day=="Saturday" or my_day=="Sunday":
+                                times_metro = [800,830,900,930,1000,1030,1100,1200,1300,1400,1500,1600,1700,1800,1830,1900,1930,2000,2030,2100,2130,2200,2230,2300,-1]
+                            else:
+                                times_metro = [730,800,830,900,920,940,1000,1030,1100,1200,1300,1400,1500,1600,1700,1720,1740,1800,1830,1900,1930,2000,2030,2100,2130,2200,2230,2300,-1]
+
+                            # Use binary search to search for next 3 shuttles
+                            low = 0
+                            high = len(times_metro) - 1
+
+                            toCheck = my_time
+
+                            while low<high:
+                                mid = (low + high)/2
+                                if times_metro[mid]==toCheck:
+                                    low = mid
+                                    break
+                                elif times_metro[mid]>toCheck:
+                                    high = mid
+                                elif times_metro[mid]<toCheck:
+                                    low = mid + 1
+                            ans_index = low
+
+                            for i in range(low,low+3):
+                                if times_metro[i] == -1:
+                                    return_message += "\nNo more shuttles today."
+                                    break
+                                next_shuttle = str(times_metro[i])
+                                next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
+                                return_message += "\n" + next_shuttle
+
+                            return_message += "\n\nGuard at Jahangirpuri: +91 8222930509"
+
+                            # Finally send the message
+                            send_message(sender_id, return_message)
+
+
+                    '''THIS POINT ONWARDS FOR THE MENU PART OF THE APPLICATION'''
+
+                    # First check if the menu of any meal has been asked
+                    elif (message_text == "MENU BREAKFAST") or (message_text == "MENU LUNCH") or (message_text == "MENU SNACKS") or (message_text == "MENU DINNER"):
+                        meal_asked = message_text[5:]
+
+                        # Get current day to decide which day's menu needs to be sent
                         from datetime import datetime, timedelta
                         my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
                         my_day = my_time.strftime('%A')
 
                         # Start generating return message:
-                        return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run from Ashoka to Jahangirpuri at:"
+                        return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\nHere's the " + meal_asked + " menu for today.\n"
 
-                        # Convert to integer
-                        my_time = int(my_time.strftime('%H%M'))
-
-                        # Make list with times of shuttles
-                        if my_day=="Saturday" or my_day=="Sunday":
-                            times_campus = [700,730,800,830,900,930,1000,1030,1100,1130,1200,1230,1300,1400,1500,1600,1700,1730,1800,1830,1900,2000,2100,2200,-1]
-                        else:
-                            times_campus = [630,700,730,800,820,845,900,930,1000,1100,1200,1300,1400,1500,1600,1630,1700,1720,1740,1800,1820,1840,1900,1930,2000,2030,2100,2200,-1]
-
-                        # Use binary search to search for next 3 shuttles
-                        low = 0
-                        high = len(times_campus) - 1
-
-                        toCheck = my_time
-
-                        while low<high:
-                            mid = (low + high)/2
-                            if times_campus[mid]==toCheck:
-                                low = mid
+                        # Get day number -> 1 for Monday, 7 for Sunday
+                        days = ["Monday","Tuesday","Thursday","Wednesday","Friday","Saturday","Sunday"]
+                        for my_day_number in range(len(days)):
+                            if my_day == days[my_day_number]:
                                 break
-                            elif times_campus[mid]>toCheck:
-                                high = mid
-                            elif times_campus[mid]<toCheck:
-                                low = mid + 1
-                        ans_index = low
+                        my_day_number += 1
 
-                        for i in range(low,low+3):
-                            if times_campus[i] == -1:
-                                return_message += "\nNo more shuttles today."
-                                break
-                            next_shuttle = str(times_campus[i])
-                            next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
-                            return_message += "\n" + next_shuttle
+                        # Do it meal by meal - simple
 
-                        # Finally send the message
-                        send_message(sender_id, return_message)
+                        if meal_asked == "BREAKFAST":
+                            returned_menu = ""
+                            # For breakfast, keep checking till there is a line with an empty string as the first element
+                            with open('menu.csv') as file:
+                                for line in file:
+                                    values_in_line = line.split(",")
+                                    if (not values_in_line[0].strip()) and (not values_in_line[1].strip()):
+                                        break
+                                    else:
+                                        returned_menu += "\n" + values_in_line[0].strip() + ": " + values_in_line[my_day_number].strip().strip("\"").strip()
 
-                    # Configure to tell you schedule at Jahangirpuri Metro Station
-                    elif message_text.upper()=="SHUTTLE METRO":
+                        elif meal_asked == "LUNCH":
+                            returned_menu = ""
+                            number_of_breaks = 0
+                            # For lunch, start check after number_of_breaks is 1 and end when it is 2
+                            with open('menu.csv') as file:
+                                for line in file:
+                                    values_in_line = line.split(",")
+                                    if (not values_in_line[0].strip()) and (not values_in_line[1].strip()):
+                                        number_of_breaks += 1
+                                    elif number_of_breaks == 1:
+                                        type_of_dish = values_in_line[0].strip()
+                                        dish = values_in_line[my_day_number].strip().strip("\"").strip()
+                                        if not dish:
+                                            dish = "Nothing"
+                                        else:
+                                            pass
+                                        returned_menu += "\n" + type_of_dish + ": " + dish
 
-                        # Get current time - time at which message has been received by this script
-                        from datetime import datetime, timedelta
-                        my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
-                        my_day = my_time.strftime('%A')
+                        elif meal_asked == "SNACKS":
+                            returned_menu = ""
+                            number_of_breaks = 0
+                            # For snacks, start check after number_of_breaks is 2 and end when it is 3
+                            with open('menu.csv') as file:
+                                for line in file:
+                                    values_in_line = line.split(",")
+                                    if (not values_in_line[0].strip()) and (not values_in_line[1].strip()):
+                                        number_of_breaks += 1
+                                    elif number_of_breaks == 2:
+                                        type_of_dish = values_in_line[0].strip()
+                                        dish = values_in_line[my_day_number].strip().strip("\"").strip()
+                                        if not dish:
+                                            dish = "Nothing"
+                                        else:
+                                            pass
+                                        returned_menu += "\n" + type_of_dish + ": " + dish
 
-                        # Start generating return message:
-                        return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run from Jahangirpuri to Ashoka at:"
+                        elif meal_asked == "DINNER":
+                            returned_menu = ""
+                            number_of_breaks = 0
+                            # For dinner, start check after number_of_breaks is 3 and end when it is 4
+                            with open('menu.csv') as file:
+                                for line in file:
+                                    values_in_line = line.split(",")
+                                    if (not values_in_line[0].strip()) and (not values_in_line[1].strip()):
+                                        number_of_breaks += 1
+                                    elif number_of_breaks == 3:
+                                        type_of_dish = values_in_line[0].strip()
+                                        dish = values_in_line[my_day_number].strip().strip("\"").strip()
+                                        if not dish:
+                                            dish = "Nothing"
+                                        else:
+                                            pass
+                                        returned_menu += "\n" + type_of_dish + ": " + dish
 
-                        # Convert to integer
-                        my_time = int(my_time.strftime('%H%M'))
-
-                        # Make list with times of shuttles
-                        if my_day=="Saturday" or my_day=="Sunday":
-                            times_metro = [800,830,900,930,1000,1030,1100,1200,1300,1400,1500,1600,1700,1800,1830,1900,1930,2000,2030,2100,2130,2200,2230,2300,-1]
-                        else:
-                            times_metro = [730,800,830,900,920,940,1000,1030,1100,1200,1300,1400,1500,1600,1700,1720,1740,1800,1830,1900,1930,2000,2030,2100,2130,2200,2230,2300,-1]
-
-                        # Use binary search to search for next 3 shuttles
-                        low = 0
-                        high = len(times_metro) - 1
-
-                        toCheck = my_time
-
-                        while low<high:
-                            mid = (low + high)/2
-                            if times_metro[mid]==toCheck:
-                                low = mid
-                                break
-                            elif times_metro[mid]>toCheck:
-                                high = mid
-                            elif times_metro[mid]<toCheck:
-                                low = mid + 1
-                        ans_index = low
-
-                        for i in range(low,low+3):
-                            if times_metro[i] == -1:
-                                return_message += "\nNo more shuttles today."
-                                break
-                            next_shuttle = str(times_metro[i])
-                            next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
-                            return_message += "\n" + next_shuttle
-
-                        return_message += "\n\nGuard at Jahangirpuri: +91 8222930509"
+                        return_message += returned_menu
 
                         # Finally send the message
                         send_message(sender_id, return_message)
@@ -148,15 +248,6 @@ def webhook():
                         # For the shitty Facebook review process
                         return_message = "Invalid command. Use SHUTTLE HELP to know more commands."
                         send_message(sender_id, return_message)
-
-                if messaging_event.get("delivery"):  # delivery confirmation
-                    pass
-
-                if messaging_event.get("optin"):  # optin confirmation
-                    pass
-
-                if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                    pass
 
     return "ok", 200
 
