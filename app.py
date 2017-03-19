@@ -243,7 +243,7 @@ def webhook():
 
                     else:
                         # For the shitty Facebook review process
-                        return_message = "Invalid command. Use SHUTTLE HELP to know more commands."
+                        return_message = "Invalid command. Use SHUTTLE HELP to know more SHUTTLE commands.\nUse MENU LUNCH to know the mess menu for the day. Similarly, you can use commands for breakfast, snacks and lunch too."
                         send_message(sender_id, return_message)
 
     return "ok", 200
