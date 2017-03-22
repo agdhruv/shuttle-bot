@@ -165,7 +165,7 @@ def webhook():
                         return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\nHere's the " + meal_asked + " menu for today.\n"
 
                         # Get day number -> 1 for Monday, 7 for Sunday
-                        days = ["Monday","Tuesday","Thursday","Wednesday","Friday","Saturday","Sunday"]
+                        days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
                         for my_day_number in range(len(days)):
                             if my_day == days[my_day_number]:
                                 break
