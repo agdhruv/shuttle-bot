@@ -174,7 +174,7 @@ def webhook():
                         # Do it meal by meal - simple
 
                         if meal_asked == "BREAKFAST":
-                            returned_menu = ""
+                            returned_menu = "\nBreakfast timings are 07:45 to 10:15.\n"
                             # For breakfast, keep checking till there is a line with an empty string as the first element
                             with open('menu.csv') as file:
                                 for line in file:
@@ -185,7 +185,7 @@ def webhook():
                                         returned_menu += "\n" + values_in_line[0].strip() + ": " + values_in_line[my_day_number].strip().strip("\"").strip()
 
                         elif meal_asked == "LUNCH":
-                            returned_menu = ""
+                            returned_menu = "\nLunch timings are 12:15 to 14:30.\n"
                             number_of_breaks = 0
                             # For lunch, start check after number_of_breaks is 1 and end when it is 2
                             with open('menu.csv') as file:
@@ -203,7 +203,7 @@ def webhook():
                                         returned_menu += "\n" + type_of_dish + ": " + dish
 
                         elif meal_asked == "SNACKS":
-                            returned_menu = ""
+                            returned_menu = "\Snacks timings are 16:45 to 18:15.\n"
                             number_of_breaks = 0
                             # For snacks, start check after number_of_breaks is 2 and end when it is 3
                             with open('menu.csv') as file:
@@ -221,7 +221,7 @@ def webhook():
                                         returned_menu += "\n" + type_of_dish + ": " + dish
 
                         elif meal_asked == "DINNER":
-                            returned_menu = ""
+                            returned_menu = "\Dinner timings are 19:45 to 22:15.\n"
                             number_of_breaks = 0
                             # For dinner, start check after number_of_breaks is 3 and end when it is 4
                             with open('menu.csv') as file:
