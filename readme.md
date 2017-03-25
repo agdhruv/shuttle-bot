@@ -13,3 +13,13 @@ For the shuttle schedule, it uses `binary search` to decide what is the next big
 For the Menu, it uses file handling with a `.csv` file that holds the menu for each week. The menu for each week will have to be updated manually.
 
 It uses the time at which the message was **received** by the system, and not the time at which the message was sent by the user.
+
+## Commands Allowed
+
+	* SHUTTLE HELP - Shows the list of commands that you can use for the shuttle service. It includes:
+		* SHUTTLE CAMPUS - Shows timings of next 3 shuttles from Campus to Jahangirpuri.
+		* SHUTTLE METRO - Shows timings of next 3 shuttles from Jahangirpuri to Ashoka.
+	* MENU BREAKFAST
+	* MENU LUNCH
+	* MENU SNACKS
+	* MENU DINNER
