@@ -16,10 +16,10 @@ It uses the time at which the message was **received** by the system, and not th
 
 ## Commands Allowed
 
-	* SHUTTLE HELP - Shows the list of commands that you can use for the shuttle service. It includes:
-	* SHUTTLE CAMPUS - Shows timings of next 3 shuttles from Campus to Jahangirpuri.
-	* SHUTTLE METRO - Shows timings of next 3 shuttles from Jahangirpuri to Ashoka.
-	* MENU BREAKFAST
-	* MENU LUNCH
-	* MENU SNACKS
-	* MENU DINNER
+	1. SHUTTLE HELP - Shows the list of commands that you can use for the shuttle service. It includes:
+	 * SHUTTLE CAMPUS - Shows timings of next 3 shuttles from Campus to Jahangirpuri.
+	 * SHUTTLE METRO - Shows timings of next 3 shuttles from Jahangirpuri to Ashoka.
+	2. MENU BREAKFAST
+	3. MENU LUNCH
+	4. MENU SNACKS
+	5. MENU DINNER
