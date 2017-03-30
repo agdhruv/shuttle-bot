@@ -45,9 +45,13 @@ def webhook():
 
                     message_text = message_text.upper() # convert to uppercase to make things easier
 
+                    shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
+                    menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
+
                     ######## THIS POINT ONWARDS FOR THE SHUTTLE PART OF THE APPLICATION ########
+
                     # First check if the message sent is any of the 3 SHUTTLE commands
-                    if (message_text=="SHUTTLE HELP") or (message_text=="SHUTTLE CAMPUS") or (message_text=="SHUTTLE METRO"):
+                    if message_text in shuttle_command_names:
 
                         if message_text=="SHUTTLE HELP":
                             return_message = "Send \"SHUTTLE CAMPUS\" (without quotes) for timings of next 3 shuttles running from the Ashoka Campus to Jahangirpuri.\n\nSend \"SHUTTLE METRO\" (without quotes) for timings of next 3 shuttles running from Jahangirpuri to Ashoka Campus."
@@ -152,8 +156,9 @@ def webhook():
                             send_message(sender_id, return_message)
             
                     ######## THIS POINT ONWARDS FOR THE MENU PART OF THE APPLICATION ########
+                    
                     # First check if the menu of any meal has been asked
-                    elif (message_text == "MENU BREAKFAST") or (message_text == "MENU LUNCH") or (message_text == "MENU SNACKS") or (message_text == "MENU DINNER"):
+                    elif message_text in menu_command_names:
                         meal_asked = message_text[5:]
 
                         # Get current day to decide which day's menu needs to be sent
