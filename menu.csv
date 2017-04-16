@@ -1,33 +1,33 @@
-FRUIT,Chikoo/BANANA,Orange/BANANA,Papaya/BANANA,Sweet lime/BANANA,Watermelon/BANANA,Mix fruit/BANANA,Sarda/BANANA
-Cereal,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Flavoured flakes WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge
-Egg Preperation,Cheese Omelette ,Akuri,Boiled Egg,french toast,Scrambled Egg,Egg Bhurji,Boiled Egg
-Indian Bfast  , Vada/Sambhar,Aloo pyaz parantha,Luchi Bhaji,Veg Poha,American Pan Cake,Kathi Roll,Uttapam/Sambhar
-Choice of milk ,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
-Accompaniment,Coconut Chutney,Curd,pickle,Tomato Chutney,Honey,Tomato Sauce ,Tomato Chutney
-Bread Butter Jam,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM
+Corn Flakes,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge
+Fruit,Banana / Papaya, Banana / orange,Banana / Watermelon,Banana / Mix Fruit,Banana / Sweet Melon,Banana / Chikoo,Banana / Grapes
+Bread/Butter/Jam,Bread/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam
+Hot Drinks,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea
+Egg,Boiled Egg,Masala Omelette,Half Fry,Boiled Egg,Egg Bhurji,Scrambled Egg,Boiled Egg
+Indian preparation,Ajwaini parantha,Idli,Onion Poha,Hash Brown Potato,Moong Dal Chilla,Aloo Payaz Parantha,Kulche
+Accompaniment,Bhaji,Sambher,Tomato Chutney,Baked Beans,Mint/Sounth Chutney,Pickle,Cholley
 ,,,,,,,
-Raita/Soup,Cucumber raita,Roohafza,Zeera dhaniya Lassi,Aam panna,Mix veg raita,Orange Crush,zeera raita
-SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Lunch,Green Beans with Tomato Salad,Corn Capsicum,Kuchumber Curd Salad,Onion Beetroot Salad,Macroni Mayo Salad,Greek Salad,Aloo Channa Chat
-DAL,Pindi chole,Yellow Dal Tadka,Akkha Moong dal,Rajma Masala,Dal Panchratan,Black Chana,Dal Makhani
-GRAVY VEG,Khatta Mitha Sitafal,Veg Kofta curry,Paneer kalimirch,Corn Palak,Paneer butter masala,saute veg,pasta in mix sauce
-DRY VEG,veg in white sauce,spaghetti in tomato basil sauce,rataouille,baked veg,Ghiya Tamatari,Cabbage Matar,Subz Kalimirch
-NON VEG,N\A,N\A,Chicken Biryani,N\A,Chicken Do Pyaza,N\A,N\A
-RICE,Onion Pulao,CORIANDER RICE,Veg Pulao,STEAM RICE,Pea Pulao,Mint Rice,Navratan Pulao
-ROTI,Roti,ROTI,ROTI,ROTI,ROTI,Plain parantha,ROTI
-SWEET,Coffe mousse,N\aN\A,N/A,Pineapple Sheera,N/A,Ice Cream,Chillled rice kheer
+Salad,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Composit Salad,Broccoli wd Basil Salad,Corn Capsicum,Kuchumber Salad, Beetroot Salad,Macroni Salad,Greek Salad,Green  Bean Salad
+Curd/Soup,Cucumber Raita,Salted Lassi,Orange Crush,Boondi Raita,Lime Water,mango Crush ,Veg Raita
+Dal,Moong Dal Palak,Rajma Curry,Yellow dal tadka,Kadhi,Dal Muradabadi,Black Malka Dal,Mix Dal Tadka
+Rice,Steamed Rice,Plain Rice,Peas Pulao,Onion Pullao,Plain Rice,South Indian Tadka Rice,Dhaniya Rice
+ Dry Veg,"Beans,Gobi,Mattar Masala",Baigan Bharta,Lauki Masala,Shahi Soya Champ,"Cabbege,Matar",Mix Veg,Saute Veg
+Semi Gravy ,Veg Pasta In Cheese Souce,Baked Herb Potato with Red Sauce,Kadhai Paneer,Veg Lasagne ,Butter Paneer Masala,Spaggheti Red Souce,Palak Corn
+Non-Veg,N.A,N.A, Home Style Chicken Curry ,N/A,Chicken Makhani Masala,N/A,N/A
+Bread,Tawa Roti,Butter Roti,Masala Roti, Roti, ROTI , Roti,Roti
+Dessert,Mango Mousse,Strawberry Firni,,Chocolate Rum Ball,,Fruit Custard,Asst. Pastry
 ,,,,,,,
-Snack,Onion Potato Pakoda,Subway,Onion kachori,Veg puff,Noodles,Pao bhaji,Danish pastry
-Accompaniment,Mint Chutney,tomato ketchup,Mint Chutney,tomato ketchup,tomato ketchup,Choped Onion,
-Tea/Coffee,Tea/Coffee,Tea/cold Coffee,Tea/Coffee,Ice Tea/Coffee,Tea/Coffee,Tea/Lemon Water,Tea/Coffee
+Snacks,Tikki Cholle,French Heart ,Bhel Puri,Veg Sandwich,Mini Piza,Samosa,Honey Chilly Potato
+,South indian tomato sauce,,ketchup,ketchup,ketchup,Mint Chutney,Tomato Kechhup
+Tea/Coffee,Tea/Coffee,Tea/Cold Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Banana Shake/Tea,Cold Coffee/Tea
 ,,,,,,,
-Raita/Soup,Khas Sharbat,Burani Raita,Boondi Jaljeera,Lemonade,Mojito,Masala Chhach,Curd
-SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Dinner,Veg Hawain Salad,Aloo Chat,Three Beans Salad,Kimchi salad,Sprouted Salad,Russian,sirka pyaz and mustard fried chilli
-DAL,Moong dal tadka,Golgappe,Black Malka,Lobhiya Masala,Punjabi Kadi Pakoda,Urad Chana Dal,Red Malka 
-GRAVY VEG,Veg Korma, Mattra,Pasta in white  Sauce,Soya chap masala,Aloo Mutter,Mix Meloni,Palak Paneer
-DRY VEG,Gobhi Adraki,Chat Papdi,Aloo Karkari,Barwa Baigan,Mix Veg  (without aloo)  ,Ratatouille,Gajar Matar
-NON VEG,N\A,N\A,N\A,N\A,N\A,N\A,Fish curry
-RICE,CORRIANDER RICE,Veg biryani,Soya keema rice,onion rice,Plain Rice,CORRIANDER RICE,STEAM RICE
-ROTI, ROTI,Kulcha ,Roti,Roti,Roti,Roti,Roti
-Sweet,N/A,Mysore Pak,Chilled Seviya Kheer,N/A,Swiss Roll,N/A,N/A
+Salad,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Composit Salad,Sundal,Mix Lettuce,Three Beans Salad,Cole Slaw Salad,Sprouted Salad,Italian pasta,Greek Salad
+Curd/Soup,Tadka Chanch,Russian Salad,Burani Raita,Rose Water,Aam Panna,Raita Onion,Mojito
+Dal,Sambhar,Kuchumber Salad,Dal Lobiya,Dal Bukhara,Louki Channa Dal,Aarhar Dal Tadka,Dal Green Moong
+Rice,Veg Poriyal,Macroni With Chilli Lime Dressing,Plain Rice,Mint Rice,Dhaniya Pudina rice,Veg Pulao,Steam Rice
+Semi Gravy ,Tomato Chutney,Boiled Chana ,Gobhi Hara Piyaz,Shabnam Curry,Sev Tamatri,Kadhai Soya,Paneer Lababdar
+Dry Veg ,N/A,Khichdi ,Pasta in Red Sauce,Kadhai Veg,Baigun Aloo Masala,Veg Kofta Curry,Aloo Beans
+Non-Veg,N/A,Curd,N/A,N/A,N/A,N/A,Mutton Roganjosh
+Bread,Veg Uttapam,Oats Bread,Roti,Tava Roti,ROTI ,ROTI,Roti
+Dessert,,Lemonade,Gulab Jamun,,Ice Cream,,
