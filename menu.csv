@@ -1,33 +1,34 @@
-Corn Flakes,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge,Flavoured Flakes/Porridge
-Fruit,Banana / Papaya, Banana / orange,Banana / Watermelon,Banana / Mix Fruit,Banana / Sweet Melon,Banana / Chikoo,Banana / Grapes
-Bread/Butter/Jam,Bread/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam,BREAD/Butter/Jam
-Hot Drinks,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea,Cold Milk/Hot Milk/Tea
-Egg,Boiled Egg,Masala Omelette,Half Fry,Boiled Egg,Egg Bhurji,Scrambled Egg,Boiled Egg
-Indian preparation,Ajwaini parantha,Idli,Onion Poha,Hash Brown Potato,Moong Dal Chilla,Aloo Payaz Parantha,Kulche
-Accompaniment,Bhaji,Sambher,Tomato Chutney,Baked Beans,Mint/Sounth Chutney,Pickle,Cholley
+Bread,WBBJ* ,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ*
+Fruit,WATERMELON/BANANA,CHEEKU/ BANANA,PAPAYA/ BANANA,SWEET MELON / BANANA,MIX FRUIT/ BANANA,SHARDA/ BANANA,WATERMELON/ BANANA
+Cereal,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE
+Dish,ALOO PAYAZ PARANTHA, CHEESE & BELLPEPPER  SANDWICH ,VADA SAMBHER,PAV BHAJI,AMERICAN PAN CAKE,SUZI UPMA,Cholle Bhature
+Accompaniment,PICKLE ,MINT CHUTNEY,COCONUT CHUTNEY,CHOPPED ONION,HONEY,Mint Chutney,PICKLE
+Egg,EGG  BHURJI ,BOILED EGG,MASALA OMELETTE,EGG KEEMA,BOILED EGG,HALF FRY,SCRAMBLED EGG
+Milk,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD
+Beverages,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE
 ,,,,,,,
-Salad,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composit Salad,Broccoli wd Basil Salad,Corn Capsicum,Kuchumber Salad, Beetroot Salad,Macroni Salad,Greek Salad,Green  Bean Salad
-Curd/Soup,Cucumber Raita,Salted Lassi,Orange Crush,Boondi Raita,Lime Water,mango Crush ,Veg Raita
-Dal,Moong Dal Palak,Rajma Curry,Yellow dal tadka,Kadhi,Dal Muradabadi,Black Malka Dal,Mix Dal Tadka
-Rice,Steamed Rice,Plain Rice,Peas Pulao,Onion Pullao,Plain Rice,South Indian Tadka Rice,Dhaniya Rice
- Dry Veg,"Beans,Gobi,Mattar Masala",Baigan Bharta,Lauki Masala,Shahi Soya Champ,"Cabbege,Matar",Mix Veg,Saute Veg
-Semi Gravy ,Veg Pasta In Cheese Souce,Baked Herb Potato with Red Sauce,Kadhai Paneer,Veg Lasagne ,Butter Paneer Masala,Spaggheti Red Souce,Palak Corn
-Non-Veg,N.A,N.A, Home Style Chicken Curry ,N/A,Chicken Makhani Masala,N/A,N/A
-Bread,Tawa Roti,Butter Roti,Masala Roti, Roti, ROTI , Roti,Roti
-Dessert,Mango Mousse,Strawberry Firni,,Chocolate Rum Ball,,Fruit Custard,Asst. Pastry
+Salad ,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR
+Composit salad,SPROUT SALAD,BROCOLLI,MACARONI SALAD,COLESLOW SALAD,SIRKA ONION, BEETROOT SALAD,RUSSIAN SALAD
+Raita,ZEERA RAITA,BURRANI RAITA,ORANGE CRUSH,TADKA MIX RAITA ,ROOHAFZA ,CURD,STRAWBERRY CRUSH
+Dal,RAJMA MASALA,SABUT MASOOR,MOONG DAL TADKA,BLACK CHANA,DAL PUNJABI,CHANA DAL,LOBHIYA DAL
+Dish 1 Semi Gravy,ALOO MATAR,SOYA CHAAP MASALA,VEG & TOFU IN HOT GARLIC SAUCE,LAUKI MASALA,KADHAI PANEER,KHATTA MEETHA PETHA,NADRU KOFTA CURRY
+Dish 2 Dry Veg,PASTA IN WHITE SAUCE,BAKED VEG,VEG THAI CURRY,VEG LASAGNE,POATAO LAYONNAISE,RATATOUILLE,VEG.MOUSSAKA
+Rice,JEERA RICE,PEAS PULAO,SOYA & VEG FRIED RICE,STEAM RICE,ONION RICE,MASALA RICE,PLAIN RICE
+Roti,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
+Dessert,MANGO MOUSSE,Sooji Halwa,N/A,ICE CREAM,N/A,PASTRY ,Coconut Barfee
+Non Veg,N/A,N/A,CHILLI CHICKEN,N/A,BUTTER CHICKEN,N/A,N/A
 ,,,,,,,
-Snacks,Tikki Cholle,French Heart ,Bhel Puri,Veg Sandwich,Mini Piza,Samosa,Honey Chilly Potato
-,South indian tomato sauce,,ketchup,ketchup,ketchup,Mint Chutney,Tomato Kechhup
-Tea/Coffee,Tea/Coffee,Tea/Cold Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Banana Shake/Tea,Cold Coffee/Tea
+Snacks,BREAD PAKODA,VEG PUFF,PAPDI CHAT,VEG.KATHI ROLL,CARROT CAKE,Samosa,IDLI MASALA
+Accompaniment,KETCHUP,KETCHUP,MINT CHUTNEY,MINT CHUTNEY,,MINT CHUTNEY,TOMATO CHUTNEY
+Tea/Coffee,  TEA/COFFEE,TEA/COFFEE, TEA / COLD COFFEE ,TEA/COFFEE,LEMONADE / COFFEE,COFFEE / TEA,COFFEE/ ICE TEA
 ,,,,,,,
-Salad,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composit Salad,Sundal,Mix Lettuce,Three Beans Salad,Cole Slaw Salad,Sprouted Salad,Italian pasta,Greek Salad
-Curd/Soup,Tadka Chanch,Russian Salad,Burani Raita,Rose Water,Aam Panna,Raita Onion,Mojito
-Dal,Sambhar,Kuchumber Salad,Dal Lobiya,Dal Bukhara,Louki Channa Dal,Aarhar Dal Tadka,Dal Green Moong
-Rice,Veg Poriyal,Macroni With Chilli Lime Dressing,Plain Rice,Mint Rice,Dhaniya Pudina rice,Veg Pulao,Steam Rice
-Semi Gravy ,Tomato Chutney,Boiled Chana ,Gobhi Hara Piyaz,Shabnam Curry,Sev Tamatri,Kadhai Soya,Paneer Lababdar
-Dry Veg ,N/A,Khichdi ,Pasta in Red Sauce,Kadhai Veg,Baigun Aloo Masala,Veg Kofta Curry,Aloo Beans
-Non-Veg,N/A,Curd,N/A,N/A,N/A,N/A,Mutton Roganjosh
-Bread,Veg Uttapam,Oats Bread,Roti,Tava Roti,ROTI ,ROTI,Roti
-Dessert,,Lemonade,Gulab Jamun,,Ice Cream,,
+Salads,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR 
+Composit salad,ALOO CHANA CHAT,Mix Lettuce,THREE BEANS SALAD,Steamed Spinach and Brocolli,CREAMY POTATO SALAD,CORN CAPSICUM SALAD,Green bean and tomato salad
+Raita,BUTTER MILK,Russian Salad,CUCUMBER RAITA,LEMON WATER,MASALA CHACH,MANGO CRUSH,MOJITO
+Dal,RED MALKA,Kuchumber Salad,BLACK MALKA DAL,KADHI PAKODA,PINDI CHOLE,GREEN MOONG DAL,AKHA MOONG DAL
+Dish 1 Semi Gravy,YAM CURRY,Spaghetti in Red Sauce with Mushrooms,Veg KOFTA CURRY,PALK CORN,KADHAI SOYA,SPAGHETTI BOLOGNAISE,PANEER DO PYAZA
+Dish 2 Dry Veg,BAIGAN BHARTA,Boiled Chana ,ALOO BEANS,SAUTE VEG,VEG RATATAULLI,HANDI VEG,MIX VEG
+Rice,ONION RICE,Khichdi ,PLAIN RICE,STEAM RICE,PLAIN RICE,Jeera Rice,STEAMED RICE
+Roti,TAWA ROTI,Curd,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
+Dessert,N/A,Oats Bread,Orange phirni,N/A,FRUIT CUSTERD,N/A,N/A
+Non Veg,N/A,Lemonade,N/A,N/A,N/A,N/A,BENGALI FISH CURRY
