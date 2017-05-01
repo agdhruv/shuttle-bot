@@ -1,34 +1,33 @@
-Bread,WBBJ* ,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ*
-Fruit,WATERMELON/BANANA,CHEEKU/ BANANA,PAPAYA/ BANANA,SWEET MELON / BANANA,MIX FRUIT/ BANANA,SHARDA/ BANANA,WATERMELON/ BANANA
-Cereal,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE
-Dish,ALOO PAYAZ PARANTHA, CHEESE & BELLPEPPER  SANDWICH ,VADA SAMBHER,PAV BHAJI,AMERICAN PAN CAKE,SUZI UPMA,Cholle Bhature
-Accompaniment,PICKLE ,MINT CHUTNEY,COCONUT CHUTNEY,CHOPPED ONION,HONEY,Mint Chutney,PICKLE
-Egg,EGG  BHURJI ,BOILED EGG,MASALA OMELETTE,EGG KEEMA,BOILED EGG,HALF FRY,SCRAMBLED EGG
-Milk,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD,HOT/ COLD
-Beverages,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE,TEA/COFFEE
+FRUIT,chikoo/BANANA,watermelon/BANANA,BANANA,Sweet lime/BANANA,sweetmelon/BANANA,pineapple/BANANA,grapes/BANANA
+Cereal,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Flavoured flakes WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge
+Egg Preperation,Cheese Omelette ,Akuri,Boiled Egg,french toast,Scrambled Egg,Egg Bhurji,Boiled Egg
+Indian Bfast  , Vada/Sambhar,Aloo pyaz parantha,Luchi Bhaji,Veg Poha,hash brown potato,Kathi Roll,Uttapam/Sambhar
+Choice of milk ,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
+Accompaniment,Coconut Chutney,Curd,pickle,Tomato Chutney,baked beans,Tomato Sauce ,Tomato Chutney
+Bread Butter Jam,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM
 ,,,,,,,
-Salad ,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR
-Composit salad,SPROUT SALAD,BROCOLLI,MACARONI SALAD,COLESLOW SALAD,SIRKA ONION, BEETROOT SALAD,RUSSIAN SALAD
-Raita,ZEERA RAITA,BURRANI RAITA,ORANGE CRUSH,TADKA MIX RAITA ,ROOHAFZA ,CURD,STRAWBERRY CRUSH
-Dal,RAJMA MASALA,SABUT MASOOR,MOONG DAL TADKA,BLACK CHANA,DAL PUNJABI,CHANA DAL,LOBHIYA DAL
-Dish 1 Semi Gravy,ALOO MATAR,SOYA CHAAP MASALA,VEG & TOFU IN HOT GARLIC SAUCE,LAUKI MASALA,KADHAI PANEER,KHATTA MEETHA PETHA,NADRU KOFTA CURRY
-Dish 2 Dry Veg,PASTA IN WHITE SAUCE,BAKED VEG,VEG THAI CURRY,VEG LASAGNE,POATAO LAYONNAISE,RATATOUILLE,VEG.MOUSSAKA
-Rice,JEERA RICE,PEAS PULAO,SOYA & VEG FRIED RICE,STEAM RICE,ONION RICE,MASALA RICE,PLAIN RICE
-Roti,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
-Dessert,MANGO MOUSSE,Sooji Halwa,N/A,ICE CREAM,N/A,PASTRY ,Coconut Barfee
-Non Veg,N/A,N/A,CHILLI CHICKEN,N/A,BUTTER CHICKEN,N/A,N/A
+Raita/Soup,Cucumber raita,Roohafza,Zeera dhaniya Lassi,Aam panna,Mix veg raita,Orange Crush,zeera raita
+SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Lunch,Green Beans with Tomato Salad,Corn Capsicum,Katchumber Curd Salad,Onion Beetroot Salad,Macroni Mayo Salad,Greek Salad,sprout salad
+DAL,Pindi chole,Yellow Dal Tadka,Akkha Moong dal,Rajma Masala,Dal Panchratan,Black Chana,Dal bukhara
+GRAVY VEG,matar mushroom,Veg Kofta curry, palak Paneer ,achari aloo,paneer biryani,saute veg,hotpot macaroni with kidney bean
+DRY VEG,veg in white sauce,spaghetti in tomato basil sauce,rataouille,baked spinach and corn ,lauki lababdar,Cabbage Matar,Subz Kalimirch
+NON VEG,N\A,N\A,roasted chicken in black pepper sauce,N\A,Chicken biryani,N\A,N\A
+RICE,Onion and soya Pulao,CORIANDER RICE,Veg Pulao,STEAM RICE,veg pulao,Mint Rice,Navratan Pulao
+ROTI,malabari parantha,masala ROTI,ROTI,ROTI, palak ROTI,Plain parantha,ROTI
+SWEET,Coffe mousse,     gulabjamun/ icecream,N/A,Pineapple Sheera,N/A,Ice Cream,strawberry mousse
 ,,,,,,,
-Snacks,BREAD PAKODA,VEG PUFF,PAPDI CHAT,VEG.KATHI ROLL,CARROT CAKE,Samosa,IDLI MASALA
-Accompaniment,KETCHUP,KETCHUP,MINT CHUTNEY,MINT CHUTNEY,,MINT CHUTNEY,TOMATO CHUTNEY
-Tea/Coffee,  TEA/COFFEE,TEA/COFFEE, TEA / COLD COFFEE ,TEA/COFFEE,LEMONADE / COFFEE,COFFEE / TEA,COFFEE/ ICE TEA
+Snack,mexican roll,Subway, sugar dough nut,coleslaw s/w,Noodles,muffin,Danish pastry
+Accompaniment,tomato ketchup,tomato ketchup,,tomato ketchup,tomato ketchup,,
+Tea/Coffee,Tea/Coffee,Tea/cold Coffee,Tea/Coffee,Ice Tea/Coffee,Tea/Coffee,Tea/Lemon Water,Tea/Coffee
 ,,,,,,,
-Salads,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR 
-Composit salad,ALOO CHANA CHAT,Mix Lettuce,THREE BEANS SALAD,Steamed Spinach and Brocolli,CREAMY POTATO SALAD,CORN CAPSICUM SALAD,Green bean and tomato salad
-Raita,BUTTER MILK,Russian Salad,CUCUMBER RAITA,LEMON WATER,MASALA CHACH,MANGO CRUSH,MOJITO
-Dal,RED MALKA,Kuchumber Salad,BLACK MALKA DAL,KADHI PAKODA,PINDI CHOLE,GREEN MOONG DAL,AKHA MOONG DAL
-Dish 1 Semi Gravy,YAM CURRY,Spaghetti in Red Sauce with Mushrooms,Veg KOFTA CURRY,PALK CORN,KADHAI SOYA,SPAGHETTI BOLOGNAISE,PANEER DO PYAZA
-Dish 2 Dry Veg,BAIGAN BHARTA,Boiled Chana ,ALOO BEANS,SAUTE VEG,VEG RATATAULLI,HANDI VEG,MIX VEG
-Rice,ONION RICE,Khichdi ,PLAIN RICE,STEAM RICE,PLAIN RICE,Jeera Rice,STEAMED RICE
-Roti,TAWA ROTI,Curd,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
-Dessert,N/A,Oats Bread,Orange phirni,N/A,FRUIT CUSTERD,N/A,N/A
-Non Veg,N/A,Lemonade,N/A,N/A,N/A,N/A,BENGALI FISH CURRY
+Raita/Soup,Khas Sharbat,curd,virgin mojito,Chanch,Mojito,aam  panna,pakori raita
+SALAD,Salad Bar,pasta salad,salad bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Dinner,Veg Hawain Salad,katchumber salad,three bean salad,sundal,Sprouted Salad,cesar salad,sirka pyaz and mustard fried chilli
+DAL,Moong dal tadka,russian salad,mushrrom in white sauce,sambhar,Punjabi Kadi Pakoda,Urad Chana Dal,Red Malka 
+GRAVY VEG,Veg Korma,mix lettuce,jacket potato,avial,Aloo Mutter,Mix Meloni,shahi Paneer
+DRY VEG,aloo Gobhi Adraki,boiled green moong dal,spaghetti in tomato basil sauce,veg chettinad,Mix Veg  (without aloo)  ,Ratatouille,arbi ajwaini
+NON VEG,N\A,N\A,N/A,N\A,N\A,N\A,Fish curry
+RICE,CORRIANDER RICE,khichdi,herb rice,tadka rice,Plain Rice,CORRIANDER RICE,STEAM RICE
+ROTI, ROTI,oats bread,mix conti bread,uttapaum,Roti,Roti,Roti
+Sweet,N/A,,mango + icecream,N/A,Swiss Roll,N/A,N/A
