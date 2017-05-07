@@ -1,33 +1,33 @@
-FRUIT,chikoo/BANANA,watermelon/BANANA,BANANA,Sweet lime/BANANA,sweetmelon/BANANA,pineapple/BANANA,grapes/BANANA
-Cereal,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Flavoured flakes WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge
-Egg Preperation,Cheese Omelette ,Akuri,Boiled Egg,french toast,Scrambled Egg,Egg Bhurji,Boiled Egg
-Indian Bfast  , Vada/Sambhar,Aloo pyaz parantha,Luchi Bhaji,Veg Poha,hash brown potato,Kathi Roll,Uttapam/Sambhar
-Choice of milk ,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
-Accompaniment,Coconut Chutney,Curd,pickle,Tomato Chutney,baked beans,Tomato Sauce ,Tomato Chutney
-Bread Butter Jam,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM
+CORN FLAKES,FLAVOURED FLAKES- 101,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES
+FRUIT,BANANA-105/ CHIKOO-73,BANANA/PAPAYA-62,BANANA/WATER MELON-46,BANANA/SARDA-60,BANANA/MIX FRUIT,BANANA/SWEETMELON,BANANA/PAPAYA
+BREAD/Butter/Jam,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM
+HOT DRINKS,"MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA"
+EGG,MASALA OMLATE,BOILD EGG,EGG BHURJI,HALF FRIED,BOILD EGG,AKURI,BOILD EGG
+INDIAN HOT,POTATO TOAST SANDWICH- 150,AJWAINI PRANTHA-135/BHAJI- 197,IDLI-39/SAMBER-273,MOONG DAL CHILLA-100,CHOLE BHATUREY,VEG CUTLET- 120,VERMICELLI UPMA (WITH CHUTNEY)
 ,,,,,,,
-Raita/Soup,Cucumber raita,Roohafza,Zeera dhaniya Lassi,Aam panna,Mix veg raita,Orange Crush,zeera raita
-SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Lunch,Green Beans with Tomato Salad,Corn Capsicum,Katchumber Curd Salad,Onion Beetroot Salad,Macroni Mayo Salad,Greek Salad,sprout salad
-DAL,Pindi chole,Yellow Dal Tadka,Akkha Moong dal,Rajma Masala,Dal Panchratan,Black Chana,Dal bukhara
-GRAVY VEG,matar mushroom,Veg Kofta curry, palak Paneer ,achari aloo,paneer biryani,saute veg,hotpot macaroni with kidney bean
-DRY VEG,veg in white sauce,spaghetti in tomato basil sauce,rataouille,baked spinach and corn ,lauki lababdar,Cabbage Matar,Subz Kalimirch
-NON VEG,N\A,N\A,roasted chicken in black pepper sauce,N\A,Chicken biryani,N\A,N\A
-RICE,Onion and soya Pulao,CORIANDER RICE,Veg Pulao,STEAM RICE,veg pulao,Mint Rice,Navratan Pulao
-ROTI,malabari parantha,masala ROTI,ROTI,ROTI, palak ROTI,Plain parantha,ROTI
-SWEET,Coffe mousse,     gulabjamun/ icecream,N/A,Pineapple Sheera,N/A,Ice Cream,strawberry mousse
+SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR
+COMPOSITE SALAD,TOSSED SALAD,CORN BELL PEPPER SALAD-63,KACHUMBER SALAD- 52,CUCUMER YOGURT SALAD- 84,MACARONI MAYO SALAD- 370,GREEK SALAD - 150,FRESH BEANS SALAD- 114
+BREAD,TIKONI PARATHA,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
+DAL,DAL MURADABADI- ,MATAR MUSHROOM,BALAK MASOOR DAL- 148 ,RAJMA CURRY- 120,DAL MAKAHANI- 180,GREEN MOONG DAL-  105,PUNJABI DAL TADAKA- 80
+RICE,JEERA RICE- 138,PLAIN RICE- 135,ONION RICE- 154,STEAMED RICE,VEG BIRYANI- 336 ,STEMED RICE,JEERA RICE
+VEG 1,KATHAL MASALA-200, PALAK CORN- 100, SHAHI PANEER-  370,METHI MATTAR MALAI- 334,BAIGUN MIRCHI KA SALAN- 282,KADAI VEG-  150,SOYA CHAP MASALA- 214
+VEG 2,BAKED VEG- 64,PASTA  IN  TOMATO  SAUCE- 167,TIKIL GOMAN (Ethiopian),RATAROUILLE- 154,PANEER LABAB DAR- 389,POTATO AUGRATIN- 263,VEG THAI CURRY- 360
+Non-Veg,N/A,N/A,HANDI MURGH- 162,N/A,CHICKEN BIRYANI- 348,N/A,N/A
+CURD/SOUP,LEMON WATER,AAM PANNA- 179,MANGO CRUSH- 47, JEERA CHACH- 50,BURANI RAITA- 65,CUCUMBER RAITA- 67,JALJEERA- 7
+DESSERT,MANGO PHIRNI- ,FRUIT CUSTARD,, CHOCO MOUSSE- 355,,PASTRY- 300,SHAHI TUKDA- 169
 ,,,,,,,
-Snack,mexican roll,Subway, sugar dough nut,coleslaw s/w,Noodles,muffin,Danish pastry
-Accompaniment,tomato ketchup,tomato ketchup,,tomato ketchup,tomato ketchup,,
-Tea/Coffee,Tea/Coffee,Tea/cold Coffee,Tea/Coffee,Ice Tea/Coffee,Tea/Coffee,Tea/Lemon Water,Tea/Coffee
+Snacks,Samosa, NOODLE- 122,VEG PUFF- 210,Subway,ZUCHINI MUFFEN,Veg Macroni,Calzone 
+,KETCHUP,,KETCHUP,,,TOMATO KETCHUP,MINT CHUTNEY
+Tea/Coffee,TEA/COFFEE,TEA/COLDCOFFEE,TEA/COFFEE,TEA/BANANA SHAKE, ICE TEA/COFFEE,TEA/ COFFE,TEA/LEMON WATER
 ,,,,,,,
-Raita/Soup,Khas Sharbat,curd,virgin mojito,Chanch,Mojito,aam  panna,pakori raita
-SALAD,Salad Bar,pasta salad,salad bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Dinner,Veg Hawain Salad,katchumber salad,three bean salad,sundal,Sprouted Salad,cesar salad,sirka pyaz and mustard fried chilli
-DAL,Moong dal tadka,russian salad,mushrrom in white sauce,sambhar,Punjabi Kadi Pakoda,Urad Chana Dal,Red Malka 
-GRAVY VEG,Veg Korma,mix lettuce,jacket potato,avial,Aloo Mutter,Mix Meloni,shahi Paneer
-DRY VEG,aloo Gobhi Adraki,boiled green moong dal,spaghetti in tomato basil sauce,veg chettinad,Mix Veg  (without aloo)  ,Ratatouille,arbi ajwaini
-NON VEG,N\A,N\A,N/A,N\A,N\A,N\A,Fish curry
-RICE,CORRIANDER RICE,khichdi,herb rice,tadka rice,Plain Rice,CORRIANDER RICE,STEAM RICE
-ROTI, ROTI,oats bread,mix conti bread,uttapaum,Roti,Roti,Roti
-Sweet,N/A,,mango + icecream,N/A,Swiss Roll,N/A,N/A
+SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR
+COMPOSITE SALAD,CRISPY NOODLE SALAD- ,THREEBEAN SALAD + TOFU,ALOO CHAT,KIMCHI SALAD- 135,MOONG SPROUT SALAD- 118,ITALIAN PASTA SALAD- ,CHANA SPROUT SALAD- 37
+BREAD,TAWA ROTI- 105,OATS BREAD,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
+DAL,YELLOW DAL TADKA- 105,BOILED GREEN MOONG DAL,DAL TIRANGA- 198,RAJSTANI KADI- 160,LOBIA DAL- 200,DAL PANCHRATAN- 174,DAL BUKHARA- 150
+RICE,VEG FRIED RICE,KHICDHI,VEG PULAO,PLAIN RICE,TOMATO RICE,   JEERA RICE,STEAM RICE
+VEG 1,MALAI KOFTA- 120,SPAGHETTI WITH MUSHROOM,ARBI MASALA- 123,ALOO CAPSICUM-  148, GOBHI  HARA PYAZ- 155,KADAI VEG-  150,PANEER BUTTER MASALA- 389
+VEG 2,HOT POT MACRONI WD KIDNEY BEANS- 236,MIXED LETTUCE,VEG MUSAKA- 174,CORN MUSROOM FLORENTINE- 240,VEG THUKPA- ,VEG KOFTA IN PALAK GRAVY- 280,SPAGHETTI BOLOGNESE- 254
+Non-Veg,N/A,N/A,N/A,N/A,N/A,N/A,MUTTON CURRY
+CURD/SOUP,MASALA CHHACH- 50,LEMONADE,CUCUMBER RAITA- 67,AAM PANNA- 179,                PLAIN CURD- 63,MANGO CRUSH- 47,DAHI PAPDI- 270
+DESSERT,,,COCONUT LADOO- 108,,RUM BALL- 88,,
+,,,,,,,
