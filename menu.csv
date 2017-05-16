@@ -1,33 +1,33 @@
-CORN FLAKES,FLAVOURED FLAKES- 101,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES,FLAVOURED FLAKES
-FRUIT,BANANA-105/ CHIKOO-73,BANANA/PAPAYA-62,BANANA/WATER MELON-46,BANANA/SARDA-60,BANANA/MIX FRUIT,BANANA/SWEETMELON,BANANA/PAPAYA
-BREAD/Butter/Jam,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM,BREAD/BUTTER/JAM
-HOT DRINKS,"MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA","MILK ,COFFEE/TEA"
-EGG,MASALA OMLATE,BOILD EGG,EGG BHURJI,HALF FRIED,BOILD EGG,AKURI,BOILD EGG
-INDIAN HOT,POTATO TOAST SANDWICH- 150,AJWAINI PRANTHA-135/BHAJI- 197,IDLI-39/SAMBER-273,MOONG DAL CHILLA-100,CHOLE BHATUREY,VEG CUTLET- 120,VERMICELLI UPMA (WITH CHUTNEY)
+FRUIT,Chikoo/BANANA,Sweetmelon/BANANA,Papaya/BANANA,Sweet lime/BANANA,Watermelon/BANANA,Mix fruit/BANANA,Sarda/BANANA
+Cereal,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Flavoured flakes WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge
+Egg Preperation,Cheese Omelette ,Scrambled Egg,Boiled Egg,french toast,akuri,Egg Bhurji,Boiled Egg
+Indian Bfast  , idli/Sambhar,American Pan Cake,poori Bhaji,vermicelli upma,aloo pyaz parntha,poha,Uttapam/Sambhar
+Choice of milk ,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
+Accompaniment,coconut chutney,Honey,pickle,Tomato Chutney,curd,Tomato ketchup ,Tomato Chutney
+Bread Butter Jam,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM
 ,,,,,,,
-SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR
-COMPOSITE SALAD,TOSSED SALAD,CORN BELL PEPPER SALAD-63,KACHUMBER SALAD- 52,CUCUMER YOGURT SALAD- 84,MACARONI MAYO SALAD- 370,GREEK SALAD - 150,FRESH BEANS SALAD- 114
-BREAD,TIKONI PARATHA,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
-DAL,DAL MURADABADI- ,MATAR MUSHROOM,BALAK MASOOR DAL- 148 ,RAJMA CURRY- 120,DAL MAKAHANI- 180,GREEN MOONG DAL-  105,PUNJABI DAL TADAKA- 80
-RICE,JEERA RICE- 138,PLAIN RICE- 135,ONION RICE- 154,STEAMED RICE,VEG BIRYANI- 336 ,STEMED RICE,JEERA RICE
-VEG 1,KATHAL MASALA-200, PALAK CORN- 100, SHAHI PANEER-  370,METHI MATTAR MALAI- 334,BAIGUN MIRCHI KA SALAN- 282,KADAI VEG-  150,SOYA CHAP MASALA- 214
-VEG 2,BAKED VEG- 64,PASTA  IN  TOMATO  SAUCE- 167,TIKIL GOMAN (Ethiopian),RATAROUILLE- 154,PANEER LABAB DAR- 389,POTATO AUGRATIN- 263,VEG THAI CURRY- 360
-Non-Veg,N/A,N/A,HANDI MURGH- 162,N/A,CHICKEN BIRYANI- 348,N/A,N/A
-CURD/SOUP,LEMON WATER,AAM PANNA- 179,MANGO CRUSH- 47, JEERA CHACH- 50,BURANI RAITA- 65,CUCUMBER RAITA- 67,JALJEERA- 7
-DESSERT,MANGO PHIRNI- ,FRUIT CUSTARD,, CHOCO MOUSSE- 355,,PASTRY- 300,SHAHI TUKDA- 169
+Raita/Soup,roohafza,cucumber raita,aam panna,zeera dhaniya lassi,orange crush,Khatta Meetha Pani,zalzeera
+SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Lunch,Toss salad,Corn Capsicum,Katchumber Curd Salad,Onion Beetroot Salad,Macroni Salad,katcumber salad, Bean Salad
+DAL,Pindi chole,Yellow Dal Tadka,akkha Moong dal,Rajma Masala,Lobhiya Masala,Choley,Dal Makhani
+GRAVY VEG,Khatta Mitha Sitafal,Veg Kofta curry,Paneer kalimirch,bhindi do pyaza,Paneer butter masala,Aloo Tikki,veg in hot garlic sauce
+DRY VEG,veg au gratin,baked rataouille,Baigan Bharta,veg lasagne,ghiya tamatari,Gole gappe,kathal masala
+NON VEG,N\A,N\A,Chicken Masala,N\A,Chicken Do Pyaza,N\A,N\A
+RICE,Veg Pulao,CORINDER RICE,Jeera Pulao,STEAM RICE,Onion Rice,Dahi Bhalle,Steam Rice
+ROTI,Roti,ROTI,ROTI,ROTI,ROTI,kulchey,ROTI
+SWEET,lemon souffle,               Besan burfi,N/A,fruit custard,N/A,Rasbari,moong dal halwa
 ,,,,,,,
-Snacks,Samosa, NOODLE- 122,VEG PUFF- 210,Subway,ZUCHINI MUFFEN,Veg Macroni,Calzone 
-,KETCHUP,,KETCHUP,,,TOMATO KETCHUP,MINT CHUTNEY
-Tea/Coffee,TEA/COFFEE,TEA/COLDCOFFEE,TEA/COFFEE,TEA/BANANA SHAKE, ICE TEA/COFFEE,TEA/ COFFE,TEA/LEMON WATER
+Snack,subway,corn cheese ball, onion poha,Veg puff,bread pakora,Pao bhaji,cheese crossioant
+Accompaniment,tomato ketchup,tomato ketchup,Mint Chutney,tomato ketchup,tomato ketchup,Choped Onion,
+Tea/Coffee,Tea/Coffee,Tea/cold Coffee,Mango Shake/Tea,Ice Tea/Coffee,Tea/banana shake,Tea/Lemon Water,Tea/Coffee
 ,,,,,,,
-SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR,SALAD BAR
-COMPOSITE SALAD,CRISPY NOODLE SALAD- ,THREEBEAN SALAD + TOFU,ALOO CHAT,KIMCHI SALAD- 135,MOONG SPROUT SALAD- 118,ITALIAN PASTA SALAD- ,CHANA SPROUT SALAD- 37
-BREAD,TAWA ROTI- 105,OATS BREAD,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI,TAWA ROTI
-DAL,YELLOW DAL TADKA- 105,BOILED GREEN MOONG DAL,DAL TIRANGA- 198,RAJSTANI KADI- 160,LOBIA DAL- 200,DAL PANCHRATAN- 174,DAL BUKHARA- 150
-RICE,VEG FRIED RICE,KHICDHI,VEG PULAO,PLAIN RICE,TOMATO RICE,   JEERA RICE,STEAM RICE
-VEG 1,MALAI KOFTA- 120,SPAGHETTI WITH MUSHROOM,ARBI MASALA- 123,ALOO CAPSICUM-  148, GOBHI  HARA PYAZ- 155,KADAI VEG-  150,PANEER BUTTER MASALA- 389
-VEG 2,HOT POT MACRONI WD KIDNEY BEANS- 236,MIXED LETTUCE,VEG MUSAKA- 174,CORN MUSROOM FLORENTINE- 240,VEG THUKPA- ,VEG KOFTA IN PALAK GRAVY- 280,SPAGHETTI BOLOGNESE- 254
-Non-Veg,N/A,N/A,N/A,N/A,N/A,N/A,MUTTON CURRY
-CURD/SOUP,MASALA CHHACH- 50,LEMONADE,CUCUMBER RAITA- 67,AAM PANNA- 179,                PLAIN CURD- 63,MANGO CRUSH- 47,DAHI PAPDI- 270
-DESSERT,,,COCONUT LADOO- 108,,RUM BALL- 88,,
-,,,,,,,
+Raita/Soup,aam panna,curd,khus sherbet,masala chanch,orange crush,curd,mango crush
+SALAD,Salad Bar,salad bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Dinner,Cole Slaw Salad,katchumber salad,Three Beans Salad,Kimchi salad,Greek Salad,Pasta salad,sirka pyaz and mustard fried chilli
+DAL,Moong dal tadka,boiled green moong ,Black Malka,Dal makhni,Black Chana,Urad Chana Dal,Red Malka 
+GRAVY VEG,Veg Korma,boiled veg,pasta in white sauce,Soya chap masala,arbi ajwaini,Mix Meloni,Palak Paneer
+DRY VEG,Gobhi Adraki,mix lettuce,Aloo Tarkari,Barwa Baigane with potato,Pasta in spinach  cream sauce,Ratatouille,Karela Do Payaza
+NON VEG,N\A,N/A,N\A,N\A,N\A,N\A,Fish curry
+RICE,CORRIANDER RICE,khicdi,Soya keema rice,onion rice,Mint Rice,CORRIANDER RICE,STEAM RICE
+ROTI, ROTI,oats bread,Roti,Roti,Roti,Roti,Roti
+Sweet,N/A,,Chilled Seviya Kheer,N/A,Ice Cream,N/A,N/A
