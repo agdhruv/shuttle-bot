@@ -1,33 +1,34 @@
-FRUIT,Chikoo/BANANA,Sweetmelon/BANANA,Papaya/BANANA,Sweet lime/BANANA,Watermelon/BANANA,Mix fruit/BANANA,Sarda/BANANA
-Cereal,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Chocos WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge,Flavoured flakes WITH MILK/Porridge,Flavoured FLAKES WITH MILK/Porridge
-Egg Preperation,Cheese Omelette ,Scrambled Egg,Boiled Egg,french toast,akuri,Egg Bhurji,Boiled Egg
-Indian Bfast  , idli/Sambhar,American Pan Cake,poori Bhaji,vermicelli upma,aloo pyaz parntha,poha,Uttapam/Sambhar
-Choice of milk ,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
-Accompaniment,coconut chutney,Honey,pickle,Tomato Chutney,curd,Tomato ketchup ,Tomato Chutney
-Bread Butter Jam,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM,BREAD BUTTER JAM
+Bread,"WBBJ*","WBBJ","WBBJ","WBBJ*","WBBJ*","WBBJ*","WBBJ*"
+Fruit,Watermelon/Banana,Chikoo/Banana,Papaya/Banana,Sweet Melon/Banana,SWEETLIME- 43/ BANANA,Sharda/Banana,Water Melon/Banana
+Cereal,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ PORRIDGE,Flavoured Flakes/ Porridge
+Dish,Aloo Payaz Parantha,Potato & Cheese Sandwich,Vada/Sambher,Pav/Bhaji,American Pancake,Suzi upma,Cholley Bathure
+Accompaniment,Pickle,Mint Chutney,Coconut Chutney,Chopped Onion,Honey,Mint Chutney,Pickle
+Egg,Egg Bhurjee,Boilled Egg, Masala Omellete,Egg Keema,Boiled Egg,Half Fry,Scramblled Egg
+Milk,Hot/ Cold,Hot/ Cold,Hot/ Cold,Hot/ Cold,Hot/ Cold,Hot/ Cold,Hot/ Cold
+Beverages,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee
 ,,,,,,,
-Raita/Soup,roohafza,cucumber raita,aam panna,zeera dhaniya lassi,orange crush,Khatta Meetha Pani,zalzeera
-SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Lunch,Toss salad,Corn Capsicum,Katchumber Curd Salad,Onion Beetroot Salad,Macroni Salad,katcumber salad, Bean Salad
-DAL,Pindi chole,Yellow Dal Tadka,akkha Moong dal,Rajma Masala,Lobhiya Masala,Choley,Dal Makhani
-GRAVY VEG,Khatta Mitha Sitafal,Veg Kofta curry,Paneer kalimirch,bhindi do pyaza,Paneer butter masala,Aloo Tikki,veg in hot garlic sauce
-DRY VEG,veg au gratin,baked rataouille,Baigan Bharta,veg lasagne,ghiya tamatari,Gole gappe,kathal masala
-NON VEG,N\A,N\A,Chicken Masala,N\A,Chicken Do Pyaza,N\A,N\A
-RICE,Veg Pulao,CORINDER RICE,Jeera Pulao,STEAM RICE,Onion Rice,Dahi Bhalle,Steam Rice
-ROTI,Roti,ROTI,ROTI,ROTI,ROTI,kulchey,ROTI
-SWEET,lemon souffle,               Besan burfi,N/A,fruit custard,N/A,Rasbari,moong dal halwa
+Salad ,Salad Bar,Salad BAr,Salad Bar,Salad Bar,Salad Bar,Salad Bar,SALAD BAR 
+Composit salad,Sprout Salad,Kachumber Salad,Macroni Cheese Pineapple Salad,Red Cabbage Slaw,Sirka Onion,Beetroot Salad,Russian Salad
+Raita,Zeera Raita,Burani Raita,Orange Crush,Tadka Mix Raita,Burani Raita,Curd,Strawberry Crush
+Dal,Rajama Masala,Moong Dal Tadka,Dal Makhni,Kala Channa Rasmissa,Dal Panjab,Channa Dal tadka,Dal Lobiya
+Dish 1 Semi Gravy,Aloo Matar,Soya Champ Masala,Thai Veg Curry,Lauki Masala,Matar Paneer,Pasta with Pesto Cheese Sauc,Veg Kofta Curry
+Dish 2 Dry Veg,Veg &Tofu in Hot Garlic Sauce,Potato Augertin,Shahi Paneer,Saute Veg,Baigun Mirchi Ka Salan,Kathal Masala,Veg Mussaka
+Rice,Jeera Rice,Veg Pullao,Steam Rice,Steam Rice,Veg Biryani,Herbs Rice,Plain Rice
+Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,TAWA ROTI,Tawa Roti,Tawa Roti
+Dessert,Chilled Mango Phrini,Lemon Souffle,N/A,Ice Cream,N/A,Pastry,Fruit custard
+Non Veg,N/A,N/A,Chicken Curry,N/A,Chicken Biryani,N/A,N/A
 ,,,,,,,
-Snack,subway,corn cheese ball, onion poha,Veg puff,bread pakora,Pao bhaji,cheese crossioant
-Accompaniment,tomato ketchup,tomato ketchup,Mint Chutney,tomato ketchup,tomato ketchup,Choped Onion,
-Tea/Coffee,Tea/Coffee,Tea/cold Coffee,Mango Shake/Tea,Ice Tea/Coffee,Tea/banana shake,Tea/Lemon Water,Tea/Coffee
+Snacks,Mini Pizza,Mushroom Puff,Corn Cheese Ball,Veg Kathi Roll,Carrot Cake,Soya Shammi Kebab,Idli Masala
+Accompaniment,Ketchup,KETCHUP,Tartar Sauce,Mint Chutney,,Mint Chutney,Tomato Chutney
+Tea/Coffee,  Tea/Coffee,Tea /Coffee,  Tea/Coffee,Tea /Coffee,Lemonade/Coffee,Coffee/Tea,Coffee /ice Tea
 ,,,,,,,
-Raita/Soup,aam panna,curd,khus sherbet,masala chanch,orange crush,curd,mango crush
-SALAD,Salad Bar,salad bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Dinner,Cole Slaw Salad,katchumber salad,Three Beans Salad,Kimchi salad,Greek Salad,Pasta salad,sirka pyaz and mustard fried chilli
-DAL,Moong dal tadka,boiled green moong ,Black Malka,Dal makhni,Black Chana,Urad Chana Dal,Red Malka 
-GRAVY VEG,Veg Korma,boiled veg,pasta in white sauce,Soya chap masala,arbi ajwaini,Mix Meloni,Palak Paneer
-DRY VEG,Gobhi Adraki,mix lettuce,Aloo Tarkari,Barwa Baigane with potato,Pasta in spinach  cream sauce,Ratatouille,Karela Do Payaza
-NON VEG,N\A,N/A,N\A,N\A,N\A,N\A,Fish curry
-RICE,CORRIANDER RICE,khicdi,Soya keema rice,onion rice,Mint Rice,CORRIANDER RICE,STEAM RICE
-ROTI, ROTI,oats bread,Roti,Roti,Roti,Roti,Roti
-Sweet,N/A,,Chilled Seviya Kheer,N/A,Ice Cream,N/A,N/A
+Salads,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,SALAD BAR 
+Composit salad,Aloo Chaat,Ceser Salad,Three Bean Salad,Kimchi Salad,Creamy Potato Wth spring Onio,Corn Capsicum Salad,Veg Hawaine Salad
+Raita,Butter Milk,Cucumber Raita,Jaljeera,Lemon Water,Masala Chaach,Mango Crush,Mojito
+Dal,Red Malka,Arhar Dal Tadka,Kadhi Pakora,Black channa,Pindi Cholley,Green moong Dal,Akkha moong Dal
+Dish 1 Semi Gravy,Yam Curry,Nadru Kofta Curry,Palak Corn,Veg Manchurian,Khatta Metha Petha,Baked Spinach,Cotte Cheese Steak wth Mushrrom Sauce
+Dish 2 Dry Veg,Baigun Bharta,Cabbage Mater Poryal,Spegethi Bolognise,Veg Thupa,Baked Veg Ratatouille,Handi Veg,Grilled vegetable
+Rice,Onion Rice,Jeera Rice,Plain Rice,Soya &Veg Fried rice,Plain Rice,Jeera Rice,Steamed Rice
+Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa roti,Tawa Roti
+Dessert,,N/A,Truffle Pudding,N/A,Strawberry Mousse,N/A,N/A
+Non Veg,N/A,N/A,N/A,N/A,N/A,N/A,Mutton Rara
