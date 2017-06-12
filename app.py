@@ -45,7 +45,41 @@ def webhook():
 
                     message_text = message_text.upper() # convert to uppercase to make things easier
 
+                    
+
+
                     ######## THIS POINT ONWARDS FOR THE SHUTTLE PART OF THE APPLICATION ########
+                    #Preetha's edits begin here - spell check introduced
+                    #works for all Levenshtein distances as long as length of the commands are same
+                    if (message_text!="SHUTTLE CAMPUS") or (message_text!="SHUTTLE METRO") or (message_text!="SHUTTLE HELP") or (message_text!="MENU DINNER") or (message_text!="MENU SNACKS") or (message_text!="MENU LUNCH") or (message_text!="MENU BREAKFAST"):
+                        
+                        message = message_text
+                        command_name = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO","MENU BREAKFAST","MENU LUNCH","MENU DINNER", "MENU SNACKS"]
+                        error=[0,0,0,0,0,0,0]
+                        index = 0
+                        for j in range(len(command_name)):
+                                if (len(message)==len(command_name[j])):
+                                        #print message
+                                        #print command_name[j]
+                                        val = command_name[j];
+                                        for i in range(len(message)):
+                                                if ((message[i])!=(val[i])):
+                                                        error[j] = error[j]+1
+                                                        #print error
+                                                        #print message[i]
+                        #to find min element				
+                        temp = []
+                        for i in error:
+                                if i > 0:
+                                        temp.append(i)
+                        minimum = min(temp)
+                        index = 0
+                        for i in range(len(error)):
+                            if (error[i]==minimum):
+                                index = i
+                        print "did you mean:"
+                        print command_name[index]
+                        message_text = command_name[index]    
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if (message_text=="SHUTTLE HELP") or (message_text=="SHUTTLE CAMPUS") or (message_text=="SHUTTLE METRO"):
 
@@ -150,7 +184,8 @@ def webhook():
 
                             # Finally send the message
                             send_message(sender_id, return_message)
-            
+
+                               
                     ######## THIS POINT ONWARDS FOR THE MENU PART OF THE APPLICATION ########
                     # First check if the menu of any meal has been asked
                     elif (message_text == "MENU BREAKFAST") or (message_text == "MENU LUNCH") or (message_text == "MENU SNACKS") or (message_text == "MENU DINNER"):
@@ -244,9 +279,10 @@ def webhook():
                         send_message(sender_id, return_message)
 
                     else:
-                        # For the shitty Facebook review process
+                        #For the shitty Facebook review process
                         return_message = "Invalid command. Use SHUTTLE HELP to know more SHUTTLE commands.\nUse MENU LUNCH to know the mess menu for the day. Similarly, you can use commands for breakfast, snacks and lunch too."
                         send_message(sender_id, return_message)
+                        
 
     return "ok", 200
 
