@@ -1,4 +1,4 @@
-Bread,"WBBJ*, ","WBBJ*, ","WBBJ*, ","WBBJ*,","WBBJ*, ","WBBJ*, ","WBBJ*, "
+Bread,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ*,WBBJ* 
 Fruit,Banana / Sweet Lime,Banana/watermelon,Banana/Mango,Banana/Sarda,Banana/Papaya,Banana/Water melon,Banana/Mix fruit
 Cereal,Flavoured Flakes/ Porridge,Flavoured Flakes/ Porridge,Flavoured Flakes/ Porridge,Flavoured Flakes/ Porridge,Flavoured Flakes/ Porridge,Flavoured Flakes/ Porridge,Flavoured Flakes/ Porridge
 Dish,Poha,Methi Prantha,Idly/Sambhar,Moong Dal chilla,Aloo Pyaz Prantha,Vermecelli Upma,Cholle/Bhature
@@ -15,21 +15,22 @@ Dal,Dal Muradabadi,Pindi Cholle,Black Masoor Dal ,Rajma Curry,Yellow Dal Tadka,G
 Dry Veg,Kathal Masala,Aloo Gobhi Adraki,Zeera Aloo,Baigan Bharta,Ratatoulli,Kadhai Veg,Soya Chap Masala
 Rice,Jeera Rice,Onion Pulao,Dhaniya Rice,Steam Rice,Plain Rice,Peas Pulao,Plain Rice
 Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti
-Dessert,Chilled Seviya Kheer, mousse,N/A,Coconut Burfi,N/A,Ice Cream,Fruit triffle
-Non Veg,N/A,N/A,Chicken Curry,N/A,Chicken Biryani,N/A,N/A
+Dessert,Chilled Seviya Kheer, Mango mousse,N/A,Coconut Burfi,N/A,Ice Cream,Fruit triffle
+Non Veg,N/A,N/A,Chicken Curry,N/A,Kadai Chicken,N/A,N/A
 ,,,,,,,
 Snacks,Veg Calzone,Bread pakora,French Heart,Veg Mexican  Roll,Danish Pastry,Noodles,Samosa
 Accompaniment,Ketchup,Ketchup,,Ketchup,,Ketchup,Mint Chutney
 Tea/Coffee,  Tea/Cold Coffee,Tea /Coffee,Ice Tea/Coffee,Tea /Coffee,Lemonade/Coffee,Coffee/Tea,Banana Shake/Tea
 ,,,,,,,
 Salads,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,SALAD BAR 
-Composit salad,Aloo Chaat,Ceser Salad,Pongal Salad,Cucumber Curd Salad,Creamy Potato Wth spring Onion,Corn Capsicum Salad,Veg Hawaine Salad
+Composit salad,Aloo Chaat,Cesar Salad,Crispy Noodle salad,Cucumber Curd Salad,Creamy Potato Wth spring Onion,Corn Capsicum Salad,Veg Hawaine Salad
 Raita,Butter Milk,Cucumber Raita,Jaljeera,Lemon Water,Masala Chaach,Mango Crush,Mojito
 Dal,Red Malka,Arhar Dal Tadka,Kadhi Pakora,Dal lobiya,Kala chana rasmisa,Chana dal tadka, Moong Dal tadka
- Semi Gravy,soya keema mutter,Bhindi do pyaza,Arbi masala,Tinda Masala,Matar mushroom Korma,Pasta in white sauce,Paneer Steak with B.B.Q. Sauce
-Dry Veg,Dam Aloo Kashmiri,Veg korma,Spagetti Bolognaise,Mix veg,Calizon,Veg kofta curry,Parmal Masala
+ Semi Gravy,soya keema mutter,Bhindi do pyaza,Arbi masala,Tinda Masala,Matar mushroom Korma,Pasta in white sauce,Shahi paneer
+Dry Veg,Dum Aloo Kashmiri,Veg korma,Spagetti Bolognaise,Mix veg,Aloo beans,Veg kofta curry,Parmal Masala
 Rice,Onion Rice,Jeera Rice,Plain Rice,Veg Fried rice,Plain Rice,Jeera Rice,Steamed Rice
 Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa Roti,Tawa roti,Tawa Roti
 Dessert,,N/A,lemon souffle,N/A,Strawberry Mousse,N/A,N/A
 Non Veg,N/A,N/A,N/A,N/A,N/A,N/A,Fish curry
+,,,,,,,
 ,,,,,,,
