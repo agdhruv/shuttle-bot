@@ -183,7 +183,7 @@ def webhook():
                         # Do it meal by meal - simple
 
                         if meal_asked == "BREAKFAST":
-                            returned_menu = "\nBreakfast timings are 07:45 to 10:15.\n"
+                            returned_menu = "\nBreakfast timings are 07:30 to 10:15.\n"
                             # For breakfast, keep checking till there is a line with an empty string as the first element
                             with open('menu.csv') as file:
                                 for line in file:
@@ -230,7 +230,7 @@ def webhook():
                                         returned_menu += "\n" + type_of_dish + ": " + dish
 
                         elif meal_asked == "DINNER":
-                            returned_menu = "\nDinner timings are 19:45 to 22:15.\n"
+                            returned_menu = "\nDinner timings are 19:30 to 22:15.\n"
                             number_of_breaks = 0
                             # For dinner, start check after number_of_breaks is 3 and end when it is 4
                             with open('menu.csv') as file:
