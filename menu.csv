@@ -2,7 +2,7 @@ FRUIT,Banana / Pineaaple, Banana / Papaya,Banana / Water Melon ,Banana / Mix Fru
 Cereal,Flavoured Flakes/porridge ,Flavoured Flakes/porridge ,Flavoured Flakes/porridge ,Flavoured Flakes/porridge ,Flavoured Flakes/porridge ,Flavoured Flakes/porridge ,Flavoured Flakes/porridge 
 Egg Preperation,Boiled Egg,Egg Bhurji,Masala Omelette,Boiled Egg,French Toast,Scrambled Egg,Boiled Egg
 Indian Bfast  ,Vada,Veg Poha,Kachori Bhaji,Aloo Pyaz Prantha,Idli/Sambher/Chutney,Hash Brown Potato/Baked Beans,Cholle Bhature
-Choice of milk ,"MILK COFFEE/TEA","MILK COFFEE/TEA","MILK COFFEE/TEA","MILK COFFEE/TEA","MILK COFFEE/TEA","MILK COFFEE/TEA","MILK COFFEE/TEA"
+Choice of milk ,MILK COFFEE/TEA,MILK COFFEE/TEA,MILK COFFEE/TEA,MILK COFFEE/TEA,MILK COFFEE/TEA,MILK COFFEE/TEA,MILK COFFEE/TEA
 Accompaniment,Sambhar/coconut chutney,Tomato chutney,Tomato chutney,Coconut Chutney,Pickle,Sounth Chutney,Pickle
 Hot beverage,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee
 Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam
@@ -18,7 +18,7 @@ ROTI,ROTI,ROTI,ROTI,ROTI,ROTI ,ROTI,ROTI
 DESSERT,Ice cream,,,,,,
 ,,,,,,,
 Snacks,vanilla sponge cake,Stuff Kulcha,veg noodles,Veg Puff,Chat Papdi,Bhel puri,Pasta In Red Sauce
-,,Mint Chutney,Ketchup,,Ketchup,,Ketchup
+Accompaniment,,Mint Chutney,Ketchup,,Ketchup,,Ketchup
 Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee
 ,,,,,,,
 Raita/Soup,Tomato Soup,Kachi Lassi,Boondi Raita,Mattha,Lemon Rasam,Aam Panna,Dal Shorba
