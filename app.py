@@ -248,7 +248,9 @@ def webhook():
                                             pass
                                         returned_menu += "\n" + type_of_dish + ": " + dish
 
-                        return_message += returned_menu.decode().encode('utf-8')
+                        return_message += returned_menu
+
+                        return_message.decode().encode('utf-8')
 
                         # Finally send the message
                         send_message(sender_id, return_message)
