@@ -248,7 +248,10 @@ def webhook():
                                             pass
                                         returned_menu += "\n" + type_of_dish + ": " + dish
 
-                        return_message += string.printable(str(returned_menu))
+                        return_message += returned_menu
+
+                        printable = set(string.printable)
+                        filter(lambda x: x in printable, return_message)
 
                         # Finally send the message
                         send_message(sender_id, return_message)
