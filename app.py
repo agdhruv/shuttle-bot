@@ -250,6 +250,7 @@ def webhook():
 
                         return_message += returned_menu
 
+                        # wow, that was new :O basically, if there are non-ASCII characters, skip them
                         printable = set(string.printable)
                         filter(lambda x: x in printable, return_message)
 
