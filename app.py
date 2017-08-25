@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-
+import string
 import requests
 from flask import Flask, request, send_from_directory
 
@@ -234,7 +234,7 @@ def webhook():
                             returned_menu = "\nDinner timings are 19:30 to 22:15.\n"
                             number_of_breaks = 0
                             # For dinner, start check after number_of_breaks is 3 and end when it is 4
-                            with open('menu.csv', encoding="utf-8") as file:
+                            with open('menu.csv') as file:
                                 for line in file:
                                     values_in_line = line.split(",")
                                     if (not values_in_line[0].strip()) and (not values_in_line[1].strip()):
@@ -248,9 +248,7 @@ def webhook():
                                             pass
                                         returned_menu += "\n" + type_of_dish + ": " + dish
 
-                        return_message += returned_menu
-
-                        return_message.decode().encode('utf-8')
+                        return_message += string.printable(returned_menu)
 
                         # Finally send the message
                         send_message(sender_id, return_message)
