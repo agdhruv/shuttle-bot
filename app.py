@@ -5,9 +5,6 @@ import json
 import requests
 from flask import Flask, request, send_from_directory
 
-reload(sys)  
-sys.setdefaultencoding('utf8')
-
 app = Flask(__name__)
 
 
@@ -237,7 +234,7 @@ def webhook():
                             returned_menu = "\nDinner timings are 19:30 to 22:15.\n"
                             number_of_breaks = 0
                             # For dinner, start check after number_of_breaks is 3 and end when it is 4
-                            with open('menu.csv') as file:
+                            with open('menu.csv', encoding="utf-8") as file:
                                 for line in file:
                                     values_in_line = line.split(",")
                                     if (not values_in_line[0].strip()) and (not values_in_line[1].strip()):
