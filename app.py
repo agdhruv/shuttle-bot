@@ -5,6 +5,9 @@ import json
 import requests
 from flask import Flask, request, send_from_directory
 
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 app = Flask(__name__)
 
 
