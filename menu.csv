@@ -1,36 +1,34 @@
-FRUIT,Papaya/Banana,Water melon/Banana,Pears/Banana,Sarda/Banana,Sweetlime/Banana,Watermelon/Banana,Pineapple/Banana
-Cereal,Flavoured Flakes /Porridge,Chocos /Porridge,Musseli Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge
-Egg Preperation,Masala Omlete, Boiled Egg, Egg Bhurji,Boiled Egg,Scrambled Egg,Tomato Chilli Omlete,Akuri  Egg 
-Indian Bfast  ,Bread Poha,Aloo Parantha,Poori Bhaji,Veg Uttapam,Poha,Vermecelli upma,Choley Bhature
+Cereal,Flavoured Flakes /Porridge,Flavoured Flakes /Porridge,Flavoured Flakes /Porridge,Flavoured Flakes /Porridge,Flavoured Flakes /Porridge,Flavoured Flakes /Porridge,Flavoured Flakes /Porridge
+Egg Preperation,Cheese Omelette,Scrambled Egg,Boiled Egg,Akuri, Egg Bhurji,Masala Egg,Masala omlette
+Indian Bfast  ,Vermiceli Upma,Aloo Pyaz Parantha,Poha,Idli/Sambhar,Pav/Bhaji,Besan Chilla,Luchi/Channa
 Choice of milk ,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
-Accompaniment,Tomato Chutney,Curd,,Sambhar,Tomato chutney,Tomato Chutney,
+Accompaniment,Red/Green chutney,Pickle,Tomato chutney,Coconut Chutney,Pickle,Sounth Chutney,Pickle
 Hot beverage,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee
 Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam
 ,,,,,,,
-Raita/Soup,Butter Milk,Lemon Water,Cucumber Raita,Boondi Raita,Jeera Lassi,Mint wala Jaljeera,Aam Panna
+Raita/Soup,Mix Raita,Curd,Rose Water,Boondi Raita,Lemon Water,Jeera Raita,Sweet Lassi
 SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composit Salad,Creamy Potato Salad,Tabulleh salad,Aloo Chana Chat,Carrot & Peanut Salad,Kuchumber salad,Tossed Salad,Three Bean Salad
-DAL,Rajma,Dal Mili Juli,Yellow dal Tadka,Lobia dal,Choley amritsari,Dal Moong Masoor,Yellow dal tadka
-GRAVY VEG,Kadhai Veg with Corn,Dum Aloo Kashmiri,Salan,Aloo Matar Gravy,Vegetable Lasagne,Soya masala,Veg kofta curry
-DRY VEG,,Veg Stew,Paneer Biryani,Saute Vegetable,Matar Paneer,Pasta in Tomato Sauce,Shahi soya chap
-NON VEG,N/A,N\A,Chicken Biryani,NA,Chicken Home style,N\A,N/A
-RICE,Steam Rice,Steam rice,,Jeera Pulao,Steam rice,Veg Pulao,Steam rice
-ROTI,Chapati,Chapati,Chapati,Chapati,Chapati,Chapati,Chapati
-SWEET,Ice cream,Phirni,,Chocolate Mousse,, Kheer,Coconut ladoo
+SALAD,Grated Raw papaya Salad,Sprout Salad,Crispy Noodle Salad,Taboulleh Salad,Italian Pasta Salad,Creamy Potato Salad,Carrot Peanut Salad
+DAL,Dal Lasuni ,Rajma Masala,Yellow Dal Tadka,Dal Bukhara,Dhaba Dal,Kala Chana Rasmisa,Hari Moong dal tadka
+GRAVY VEG,Veg Kolhapuri,Aloo Mutter Curry,Palak Paneer,Sev Tamatri,Shahi Paneer,Mushroom Matar, Veg kofta curry
+DRY VEG,Baigan Bharta,Pasta  in White Sauce,Veg Jalfrezie,Aloo Beas,Veg Lasagne,Moussaka,Aloo Pudina
+NON VEG,N\A,N\A,Kadai chicken ,NA,Home Style Chicken Curry,N\A,N\A
+RICE,Tiranga Rice,Coriander Rice,Jeera Pulao,Veg Pulao,Onion Rice,Mint Rice,Steam Rice
+ROTI,Chapati, Chapati,Chapati,Chapati,Chapati,Chapati,Chapati
+SWEET,,Ice Cream,,Orange mousse,,Fruit Custard,
 ,,,,,,,
-Snack,Vada Pav,Pasta in Tomato Sauce,moong dal ladoo,Noodles,Muffin,jhal muri,Veg Calzone
-Accompaniment,,Ketchup ,,,,Sweet and mint chutney,Tomato ketchup
-Tea/Coffee,Tea/ Mango Crush,Tea/ Cold Coffee,Tea/Banana Shake,Aam Panna/Coffee,Orange Crush/ Coffee,Ice Tea/Coffee,Tea/ Vanilla Milk
+Snack,Veg Puff,Ragda patti,Bhelpuri,Mini Pizza,Coleslaw Grilled Sadwich,Swiss Roll,Mix Pakoda
+Accompaniment,Ketchup,saunth chutney,Mint Chutney,Ketchup,Tomato Ketchup,,Mint Chutney
+Tea/Coffee,Tea/Cold Coffee,Tea/Coffee,Tea/ Banana Shake,Tea/Coffee,Tea/Coffee,Tea/Cold Coffee,Tea/Cold Coffee
 ,,,,,,,
-Raita/Soup,khus Sharbat,Lemon Water,Thandai,Lemon Water,Boondi Raita,Roh-af-za water,Burani Raita
+Raita/Soup,Lemon water,Masala Chanch, Burani Raita,Lauki Raita,Mojito ,Masala Jaljeera,Curd
 SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composit Salad,3 Bean Salad,Beetroot salad,Cucumber Yogurt salad,Sundal,Corn Capsicum Salad,Crispy Murmura Salad,Kimchi Salad
-DAL,Sindhi Kadi,Dal Bukhara,Dal Haryali,Adraki Sambhar,Dal Makhani,Red Masoor Dal,Dal Maharani
-GRAVY VEG,Lauki Rasmisa,Exotic veg in schezwan sauce,Soya Chap Masala,Veg Chettinad,Sev  tamatar,Subz Kalimirch,Matar Paneer
-DRY VEG,Kadai soya,Guncha-O-Chaman, Pasta Alfredo ( cheese Sauce),Cabbage Mattar Porial,Baked Veg,Khatte Baigan,Gobhi Aloo
-NON VEG,N\A,N\A,N\A,N\A,N\A,N\A,Mutton Rogan Josh
-RICE,Tomato Rice/Khichdi,Veg Pulao,Tomato & Bellpepper Fried Rice,Tamarind Rice,Onion Rice,Plain Rice,Veg Pulao
-ROTI,Palak roti,Chapati,Chapati,IDLI,Roti,Masala Roti,Chapati
-DESSERT,,,Suji halwa,,Lemon Souffle,,
+DAL,Lobhiya Masala,  Sambhar,Dal Palak,Chole,Dal Tadka ,Aamti dal,Mix Dal Tadka
+GRAVY VEG,Kadhai Soya,South Indian Stew,Khoya Matar Makhana,Nadru Matar Curry,Noodles,Subz Peshawari,Parmal  Masala
+DRY VEG,Goan Vegetable Curry,Cabbage & Beans Poriyal,Aloo Capsicum,Vegetables & Tofu in Black Bean Sauce,Stir Fried Vegetables,Mirch Baigan Ka Salan,Kadhai Paneer 
+NON VEG,N\A,N\A,N\A,N\A,N\A,N\A,Fish Curry
+RICE,Pudina Rice,Tomato  Rice,Onion Pulao,Steam Rice,Veg Fried Rice/Plain Rice,Coriander Rice,Veg Pulao
+ROTI,Chapati,Masala Uttapam,Chapati,Chapati,Roti,Chapati,Chapati
+SWEET,Besan ladoo,,Shahi Tukda,,Pastry,,sooji halwa
 ,,,,,,,
 ,,,,,,,
