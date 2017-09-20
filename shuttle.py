@@ -103,10 +103,6 @@ def shuttle(message_text):
 	# Return the message to callee
 	return return_message
 
-message_text = 'SHUTTLE METRO'
-return_message = shuttle(message_text)
-print return_message
-
 
 
 
