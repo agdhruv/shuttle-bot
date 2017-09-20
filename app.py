@@ -53,13 +53,13 @@ def webhook():
 
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if message_text in shuttle_command_names:
-                        return_message = shuttle.shuttle(message_text)
+                        return_message = shuttle.get_shuttle(message_text)
                         send_message(sender_id, return_message)
                     
                     # Then check if the message sent is any of the 3 MENU commands
                     elif message_text in menu_command_names:
 
-                        return_message = shuttle.shuttle(message_text)
+                        return_message = menu.get_menu(message_text)
 
                         # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
                         printable = set(string.printable)
@@ -68,9 +68,10 @@ def webhook():
                         # Finally send the message
                         send_message(sender_id, return_message)
 
+                    # If it is neither of the valid commands
                     else:
                         # For the shitty Facebook review process
-                        return_message = "Invalid command. Use SHUTTLE HELP to know more SHUTTLE commands.\nUse MENU LUNCH to know the mess menu for the day. Similarly, you can use commands for breakfast, snacks and lunch too."
+                        return_message = "Invalid command. Use SHUTTLE HELP to know more SHUTTLE commands.\nUse MENU LUNCH to know the mess menu for the day. Similarly, you can use commands for breakfast, snacks and dinner too."
                         send_message(sender_id, return_message)
 
     return "ok", 200
@@ -98,7 +99,6 @@ def send_message(recipient_id, message_text):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
-
 
 def log(message):  # simple wrapper for logging to stdout on heroku
     print str(message)

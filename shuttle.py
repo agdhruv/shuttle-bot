@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-def shuttle(message_text):
+def get_shuttle(message_text):
 
 	# Configure to reply to shuttle help command
 	if message_text=="SHUTTLE HELP":

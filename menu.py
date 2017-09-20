@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-def menu(message_text):
+def get_menu(message_text):
 
 	meal_asked = message_text[5:]
 
@@ -93,9 +93,5 @@ def menu(message_text):
 
 	return_message += returned_menu
 
-	
-
-
-
-
-
+	# Return the message to callee
+	return return_message
