@@ -51,6 +51,7 @@ def webhook():
 
                     shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
                     menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
+                    # directory_command_names = ["INFIRMARY"]
 
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if message_text in shuttle_command_names:
