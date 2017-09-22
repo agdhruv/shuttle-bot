@@ -51,7 +51,7 @@ def webhook():
 
                     shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
                     menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
-                    # directory_command_names = ["INFIRMARY"]
+                    directory_command_names = ["INFIRMARY", "MAINTENANCE"]
 
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if message_text in shuttle_command_names:
@@ -68,6 +68,10 @@ def webhook():
                         filter(lambda x: x in printable, return_message)
 
                         # Finally send the message
+                        send_message(sender_id, return_message)
+
+                    elif message_text in directory_command_names:
+                        return_message = directory.get_directory(message_text)
                         send_message(sender_id, return_message)
 
                     # If it is neither of the valid commands
