@@ -52,7 +52,7 @@ def webhook():
 
                     shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
                     menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
-                    directory_command_names = ["INFIRMARY", "MAINTENANCE"]
+                    directory_command_names = ["INFIRMARY", "MAINTENANCE", "HOUSEKEEPING"]
 
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if message_text in shuttle_command_names:
@@ -78,7 +78,7 @@ def webhook():
                     # If it is neither of the valid commands
                     else:
                         # For the shitty Facebook review process
-                        return_message = "Invalid command. Use SHUTTLE HELP to know more SHUTTLE commands.\nUse MENU LUNCH to know the mess menu for the day. Similarly, you can use commands for breakfast, snacks and dinner too."
+                        return_message = "Invalid command.\n\n1. SHUTTLE HELP to know more SHUTTLE commands.\n2. MENU BREAKFAST (LUNCH, SNACKS, DINNER) for mess menu.\n3. INFIRMARY, MAINTENANCE, HOUSEKEEPING for contact details."
                         send_message(sender_id, return_message)
 
     return "ok", 200
