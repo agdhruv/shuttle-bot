@@ -21,7 +21,7 @@ def get_menu(message_text):
 	# Do it meal by meal - simple
 
 	if meal_asked == "BREAKFAST":
-		returned_menu = "\nBreakfast timings are 07:30 to 10:15.\n"
+		returned_menu = "\nBreakfast timings are 08:00 to 10:30.\n"
 
 		# For breakfast, keep checking till there is a line with an empty string as the first element
 		with open('menu.csv') as file:
