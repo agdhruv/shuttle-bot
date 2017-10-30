@@ -1,37 +1,37 @@
-FRUIT,Watermelon/Banana,Papaya/Banana,Pears/Banana,Sweet Lime /Banana,Banana,Sharda/Banana,Papaya/Banana
-Cereal,Flavoured Flacks/Porridge,Chocos/Porridge,Flavoured Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge
-Egg Preperation,Masala Omelette,Egg Bhurji,Cheese Omelette,Scrambled Eggs,Boiled Egg,Egg Kheema,Boiled Egg
-Indian Bfast  ,Idly/Sambher,Aloo Prantha,Semiya Upma, Hash Brown Potato,Veg Poha,Vada/Sambher,Chole 
-Choice of milk ,Hot/Cold,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk,Hot N Cold Milk
-Accompaniment,Coconut Chutney,Pickle ,Tomato Chutney,Baked Beans,Tomato Chutney,Coconut Chutney,Bhature
+FRUIT,Sweet Lime/Banana,Papaya/Banana,Water melon/Banana,Pears/Banana,Sarda/Banana,Mix Fruit/Banana,Papaya/Banana
+Cereal,Flavoured Flakes/Porridge,Chocos/Porridge,Flavoured Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge
+Egg Preperation,Boiled Egg,Cheese Omelette ,French Toast,N/A,Masala Omelette ,Boiled Egg,Akuri 
+Indian Bfast  ,Poha,Idli/Vada/Sambar,Suji Upma,Aloo Pyaaz Prantha,Pav/Bhaji ,Grill Chesse Mayo S/W,Kulcha / Matter
+Choice of milk ,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold
+Accompaniment,Coconut Chutney,Coconut Chutney,Tomato Chutney,Pickle,Chopped Onion ,Tomato Ketchup,Chopped Onion Green Chilli
 Hot beverage,Tea /Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee
 Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam
 ,,,,,,,
-Raita/Soup,Jeera Raita,Khas Sharbat,Butter Milk,Roohafza,Mix Veg Raita,Lemon Rasam ,Boondi Raita
+Raita/Soup,Roohafza,Boondi Raita ,Khas Sharbat,Butter Milk ,Cucumber and Onion Raita ,Orange Crush,Pineapple Raita 
+SALAD,Salad Bar,Salad Bar ,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
+Composite Salad,Crispy Noodles Salad,Greek Yogurt Salad,Tabulleh Salad,Beetroot salad ,Sirka Onion ,Ceaser Salad ,Gratted Raw Papaya Salad 
+DAL,Rajma Masala ,Black Dal,Triveni Dal,Dal Haryali ,Kadhi Pakora,Black Channa ,Dal Makhani 
+Healthy / Conti ,Roasted Eggplant with garlic and herbs,Veg in Hot Garlic Sauce, Penne Pasta In Pesto Sauce ,Mangolian Veg,Paneer Jodhpuri ,Veg au Gratin ,Keema matter 
+DRY VEG,Mutter Mushroom,Achari Veg,Mutter Paneer,Arbi Ajwaini ,Aloo Jeera ,Subz Meloni ,Veg Kofta Curry
+NON VEG,N/A,N\A,Madras Chicken Curry,N/A,Chicken Biryani  ,N/A,N\A
+RICE,Steam rice,Plain Rice,Jeera Fried Rice,Plain Rice , Steam Rice ,Onion Pulao ,Plain Rice
+ROTI,Chapati,Chapati, Chapati,Chapati,Chapati,Chapati,Chapati
+SWEET,Fruit Custard,Paysum ,,Chocolate Mousse ,,Ice Cream,Coconut Burfi
+,,,,,,,
+Snack,Stuffed Bun ,Samosa,Tofu Roll,Sprouts & Corn Masala,Sweet Potato Chaat,Oats Muffin,Tofu Roll 
+Accompaniment,Tomato Ketchup,Mint & Saunth Chutney,Tomato Ketchup ,Chat Masala ,Mint & Saunth Chutney,Tomato Ketchup,Mint Chutney
+Tea/Coffee,Tea/Cold Coffee ,Tea/ Cold Coffee,tea /Lemon Water,Ice Tea/Coffee ,Tea/Coffee  ,Tea/Thandai,Tea/Coffee
+,,,,,,,
+Raita/Soup,Masala Chaas,Ginger Garlic Noodle Soup,Tomato Rasam,Cream of Mushroom Soup ,Lemon Water,Hot & Saur Soup,Aam Panna
 SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composite Salad,Cucumber Yogurt Salad,Grated Carrot Peanut Salad,Achari Pyaaz,Beans Tomato Salad,Greek Salad,Sprouted Salad,Fresh Lettuce 
-DAL,Rajma ,Dal Bukhara,Yellow Dal Tadka,Dal Panchratan ,Red Malka Dal ,Louki Channa Dal ,Kadi Pakoda 
-Healthy / Conti ,Veg Lasagna,Veg Moussaka,Paneer Manchurian,Pasta With Cheese Sauce,Dum Paneer Kali Mirch,Veg in hot garlic sauce,Veg au Gratin 
-DRY VEG,Keema Masala,Arbi Ajwaini,Aloo Sem Fali,Gobhi Gajer Mutter ,Kadai Veg ,Baigan Bharta,Aloo Jeera
-NON VEG,N/A,N\A,Murgh Rezala,N/A,Chicken Tikka Masala,N/A,N\A
-RICE,Steam rice,Plain Rice,Fried rice,Jeera Pulao,Dhaniya Rice,veg.pulao,Plain Rice
-ROTI,Chapatti,Chapati, Chapati,Chapati,Chapati,Chapati,Chapati
-SWEET,,,~,,~,,Double Ka Meetha 
+Composite Salad,Brocolli and Lettuce Salad,Cucumber Sesame Salad,Bruschetta Pasta Salad,Aloo Chana Chaat,Macroni Salad,Kachumber Salad,Carrot Peanut Salad
+DAL,Channa Dal ,Cholle Amritsari,Lobhiya  Dal,Mix Dal ,Yellow Dal Tadka,Dal Pakwan,Red Malka
+GRAVY VEG,Aloo Tamatar, Veg Spaghetti,Soya Matar Masala,Methi Gutta Curry,Chole Amritsari,Aloo Gobhi Adraki , Palak Paneer
+DRY VEG,Sev Tomatri ,Bhindi Kurkuri,Undhiyo,Aloo Pyaaz Bhaja,Andhra Veg Curry,Palak Corn ,Mix Veg
+NON VEG,N/A,N/A,N/A,Egg Curry,N/A,N/A,Fish Curry 
+RICE,Peas Pulao ,Bellpepper Rice,Plain Rice,Motiya Pulao ,Steam Rice ,Herbs Rice,Plain Rice
+ROTI,Chapatti,Roti ,Ghiya Thepla ,Malabar Parantha,Roti,Chapatti,Chapatti
+SWEET,,,Pastry,,Besan Laddoo,,~
 ,,,,,,,
-Snack,Singapuri Chowmin,Bread Pakora,Idli Chaat,Veg Tofu Roll,Stuffed Kulcha,Muffin,Grilled Spinch Corn Sandwich 
-Accompaniment,tomato ketchup,tomato ketchup,tomato ketchup,tomato ketchup,tomato ketchup,tomato ketchup,Mint Chutney
-Tea/Coffee,Tea/ Coffee ,Tea/ Cold Coffee,Ice tea/Coffee,tea /banana shake,Tea/Coffee  ,Tea/Thandai,Tea/Coffee
-,,,,,,,
-Theam Menu ,Rajasthani ,South Indian ,Kashmiri ,Street Food,Dtox ,Punjabi ,
-Raita/Soup,Masala Chaas,Pepper Rasam,Kashmiri Mushroom soup ,Creamy Tomato Soup,Sweet Corn Soup ,Sweet Lassi,Manchow Soup 
-SALAD,Salad Bar,salad bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composite Salad,Caesar salad,Sundal ,Row Papaya Chaat,Aloo Chana Chaat,Red Cabbage Coleslaw Salad,Chickpea Salad,Sirka Onion
-DAL,Dal Baati,Tomato Dal ,Kashmiri Dal ,Cholle Bhature,Beetroot Salad/Fresh Lettuce,Punjabi Dal Tadka,Black Masoor Dal
-GRAVY VEG,Gutta Curry,Veg Chettinad,Dam Aloo Kashmiri ,Dahi Bhalla (Portion),Fruit Salad,Sarso Da Saag,Paneer Do Pyaza
-DRY VEG,Panchmel ki Sabzi,Cabbage Poriyal,Chokh Vangun,Gol Gappa ,Cold Pasta Salad,Mix Veg,Subz Melone 
-NON VEG,N/A,N/A,N/A,N/A,N/A,N/A,Mutton Rogan Josh 
-RICE,Veg Pulao,Bisi Bele Bhaat,Kashmiri Pulao,Veg Biryani ,Curd Rice,Steam Rice,Plain Rice
-ROTI,Chapatti,Malabari Prantha,Roti ,N/A,N/A,Makki Di Roti,Chapatti
-SWEET,Balushahi,Mysore pak ,Keser Kheer,Ice Cream ,Lemon Suffle,Gulab Jamun ,~
 ,,,,,,,
 ,,,,,,,
