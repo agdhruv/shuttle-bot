@@ -86,7 +86,10 @@ def get_menu(message_text):
 		            type_of_dish = values_in_line[0].strip()
 		            dish = values_in_line[my_day_number].strip().strip("\"").strip()
 		            if not dish:
-		                dish = "Excuse me? This is not your home."
+		            	if (type_of_dish == 'SWEET'):
+		                	dish = "Excuse me? This is not your home."
+		                else:
+		                	dish = "Nothing"
 		            else:
 		                pass
 		            returned_menu += "\n" + type_of_dish + ": " + dish
