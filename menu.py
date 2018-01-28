@@ -94,6 +94,9 @@ def get_menu(message_text):
 		                pass
 		            returned_menu += "\n" + type_of_dish + ": " + dish
 
+	# ignore non-ascii characters
+	returned_menu = returned_menu.decode("ascii", errors="ignore").encode()
+
 	return_message += returned_menu
 
 	# Return the message to callee
