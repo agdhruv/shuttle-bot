@@ -1,11 +1,8 @@
 from datetime import datetime, timedelta
-import string
 
 def get_menu(message_text):
 
 	meal_asked = message_text[5:]
-
-	printable = set(string.printable)
 
 	# Get current day to decide which day's menu needs to be sent
 	my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
