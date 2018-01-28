@@ -97,7 +97,6 @@ def get_menu(message_text):
 		                pass
 		            returned_menu += "\n" + type_of_dish + ": " + dish
 
-	filter(lambda x: x in printable, returned_menu)
 	return_message += returned_menu
 
 	# Return the message to callee
