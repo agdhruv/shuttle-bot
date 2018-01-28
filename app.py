@@ -63,7 +63,7 @@ def webhook():
                     # Then check if the message sent is any of the 3 MENU commands
                     elif message_text in menu_command_names:
 
-                        return_message = menu.get_menu(message_text)
+                        # return_message = menu.get_menu(message_text)
 
                         # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
                         printable = set(string.printable)
