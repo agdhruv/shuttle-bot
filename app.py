@@ -66,11 +66,11 @@ def webhook():
                         # return_message = menu.get_menu(message_text)
 
                         # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
-                        printable = set(string.printable)
-                        filter(lambda x: x in printable, return_message)
+                        # printable = set(string.printable)
+                        # filter(lambda x: x in printable, return_message)
 
                         # Finally send the message
-                        return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
+                        # return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
                         send_message(sender_id, "The bot is currently under maintenance.")
                         # send_message(sender_id, return_message)
 
