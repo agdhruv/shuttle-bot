@@ -53,6 +53,7 @@ def webhook():
                     shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
                     menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
                     directory_command_names = ["INFIRMARY", "MAINTENANCE", "HOUSEKEEPING"]
+                    admin_command_names = ["ADMIN MENU"]
 
                     # First check if the message sent is any of the 3 SHUTTLE commands
                     if message_text in shuttle_command_names:
@@ -65,10 +66,6 @@ def webhook():
 
                         # return_message = menu.get_menu(message_text)
 
-                        # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
-                        # printable = set(string.printable)
-                        # filter(lambda x: x in printable, return_message)
-
                         # Finally send the message
                         # return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
                         send_message(sender_id, "The bot is currently under maintenance.")
@@ -77,6 +74,13 @@ def webhook():
                     # Then check if the message sent is any of the directory commands
                     elif message_text in directory_command_names:
                         return_message = directory.get_directory(message_text)
+                        return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
+                        send_message(sender_id, return_message)
+
+                    # Then check if the message sent is any of the admin commands
+                    elif message_text in admin_command_names:
+                        return_message = menu.get_menu(message_text)
+                        # Finally send the message
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
                         send_message(sender_id, return_message)
 
