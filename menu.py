@@ -1,8 +1,11 @@
 from datetime import datetime, timedelta
+import string
 
 def get_menu(message_text):
 
 	meal_asked = message_text[5:]
+
+	printable = set(string.printable)
 
 	# Get current day to decide which day's menu needs to be sent
 	my_time = datetime.utcnow() + timedelta(hours=5) + timedelta(minutes=30)
@@ -94,9 +97,7 @@ def get_menu(message_text):
 		                pass
 		            returned_menu += "\n" + type_of_dish + ": " + dish
 
-	# printable = set(string.printable) # wow, that was new. Basically, if there are non-ASCII characters, skip them
-	# filter(lambda x: x in printable, returned_menu)
-
+	filter(lambda x: x in printable, returned_menu)
 	return_message += returned_menu
 
 	# Return the message to callee
