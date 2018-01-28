@@ -94,8 +94,8 @@ def get_menu(message_text):
 		                pass
 		            returned_menu += "\n" + type_of_dish + ": " + dish
 
-	printable = set(string.printable) # wow, that was new. Basically, if there are non-ASCII characters, skip them
-	filter(lambda x: x in printable, returned_menu)
+	# printable = set(string.printable) # wow, that was new. Basically, if there are non-ASCII characters, skip them
+	# filter(lambda x: x in printable, returned_menu)
 
 	return_message += returned_menu
 
