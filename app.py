@@ -63,23 +63,18 @@ def webhook():
                     
                     # Then check if the message sent is any of the 3 MENU commands
                     elif message_text in menu_command_names:
-
-                        # return_message = menu.get_menu(message_text)
-
-                        # Finally send the message
-                        # return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
                         send_message(sender_id, "The bot is currently under maintenance.")
-                        # send_message(sender_id, return_message)
+                        
 
                     # Then check if the message sent is any of the directory commands
                     elif message_text in directory_command_names:
-                        return_message = directory.get_directory("MENU LUNCH")
+                        return_message = directory.get_directory(message_text)
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
                         send_message(sender_id, return_message)
 
                     # Then check if the message sent is any of the admin commands
                     elif message_text in admin_command_names:
-                        return_message = menu.get_menu(message_text)
+                        return_message = menu.get_menu("MENU LUNCH")
                         # Finally send the message
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
                         send_message(sender_id, return_message)
