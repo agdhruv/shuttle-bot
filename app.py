@@ -71,7 +71,8 @@ def webhook():
 
                         # Finally send the message
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-                        send_message(sender_id, return_message)
+                        send_message(sender_id, "The bot is currently under maintenance.")
+                        # send_message(sender_id, return_message)
 
                     # Then check if the message sent is any of the directory commands
                     elif message_text in directory_command_names:
