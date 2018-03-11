@@ -1,36 +1,37 @@
-FRUIT,Guava/Banana,Papaya/Banana,Kinoo/Banana, Mix Fruit/Banana,Sarda/Banana,Papaya/Banana,Orange/Banana
-Cereal,Flavored Flakes/Porridge,Chocos/Porridge,Flavored Flakes /Porridge,Chocos /Porridge,Flavored Flakes /Porridge,Chocos ,Flavored Flakes /Porridge
-Egg Preparation,Akuri,Masala Omelets,Boiled Egg,Spinach Omelets,Cheese Omelets,Half Fry,Egg Keema Masala
-Indian Bfast  ,Gobhi Prantha,Veg.Poha,Methi Puri,Idli/Sambhar,Suji Upma,Masala Oats,Kulcha/ Matar
+FRUIT,Sarda/Banana,Mix fruit/Banana,Watermelon/Banana,Orange/Banana,Papaya/Banana,Mix Fruit/Banana,Orange/Banana
+Cereal,Flavoured Flakes/Porridge,Choco/Porridge,Flavoured Flakes /Porridge,Chocos /Porridge,Flavoured Flakes /Porridge,Chocos / Porridge,Flavoured Flakes /Porridge
+Egg Preperation,Frittata,Egg Bhurji,Boiled Egg,Scrambled Egg,Full Fry,Akuri,Cheese omlette
+Indian Bfast  ,Aloo Peas Prantha,Suji Upma,Kulcha/Mattar,Pan Cake,Vada/Sambhar,Bathua Poori,Kandha Poha
 Choice of milk ,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold,Hot/Cold
-Accompaniment,Pickle,Tomato Chutney,Aloo Bhaji,Coconut Chutney,Tomato Chutney,Mint Chutney,Fry Chili
+Accompaniment,Pickle,Tomato Chutney,Fry Chilli,Honey ,Tomato Chutney,Aloo Bhaji,Mint Chutney
 Hot beverage,Tea /Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee,Tea/Coffee
 Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam
 ,,,,,,,
-Raita/Soup,Butter Milk,Mix Veg Raita,Masala Chach,Pudina Raita ,Cucumber Raita,Bathua Raita,Burani Garlic Raita
+Raita/Soup,Rasam,Bathua Raita,Burani Garlic Raita,Butter Milk,Mint Raita,Masala Chach,Pudina Raita 
 SALAD,Salad Bar,Salad Bar ,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composite Salad,,,Achari Onion,,,,
-DAL,Dal Tadka,Kala Chana Masala,Red Malka,Rajma,Mix dal,Green Moong ,Kadi Pakora
-Healthy / Conti ,Spaghetti Bolognese,Baked Spinach Corn,Mutter Paneer,Veg. Au gratin,Paneer Handi,Macaroni & Cheese Sauce,Palak Corn
-DRY VEG,Aloo Gobhi Adraki,Aloo baingan Wadi Ki Subzi,Keema Masala,Aloo Capsicum,Kadai Soya, Gobhi Masala,Jeera Aloo
-NON VEG,N/A,N\A, Kadai Chicken,N/A,Chicken Masala,N/A,N\A
-RICE,Steam rice,Plain Rice, Jeera Rice,Plain Rice ,Rice,Onion Pulao ,Plain Rice
-ROTI,Chapatti,Chapati, Chapati,Chapati,Chapati,,Chapati
-SWEET,Lemon Souffle,Kheer,,Coconut Burfi,,Mal Pua,Gulab Jamun
+Composite Salad,Sesame Cucmber Salad,Grated Mooli & Mint Salad,Vinegar Onion ,Ceasar Salad,Achari Onion ,Beetroot,Corn Capsicum
+DAL,Sambhar,Dal Fry,Yellow Dal Tadka,Idli,Black Masoor Dal,Kadhi Pakora,Punjabi Choley
+Healthy / Conti ,Tomato Chutney, Chilee Soya,Paneer Biryani,Pasata Arrabiata,Paneer do pyaaza,Macroni & Chees Sauce,Pasta arrabiata
+DRY VEG,Mix Veg Poriyal,Aloo Gobhi Adraki,Khatta Metha Pumkin,Sambhar & coconut chutney,Baingan Mirchi Ka Salan,Aloo Jeera,Soya Chap
+NON VEG,N/A,N\A,Mutton Biryani,N/A,Butter chicken,N/A,N\A
+RICE,Leman Rice,Plain Rice, Jeera Rice,Plain Rice , Steam Rice ,Onion Pulao ,Plain Rice
+ROTI,Veg Uttapam,Chapati, Chapati,Curd Rice,Chapati,Chapati,Chapati
+SWEET,Jaggery Payasam,Banana Pudding,,Shahi Tukda,,MalPua,Rum Ball
 ,,,,,,,
-Snack,Aloo Bonda,Veg Puff,Samosa,Papaya Fruit Tart,Chowmein,Potato Grilled. Sandwich,Carrot Cake
-Accompaniment,Mint & Saunt Chutney,Tomato Ketchup,Mint & Saunt Chutney,,Tomato Ketchup,Mint & Saunt Chutney,
+Snacks,Veg Puff,Mix Veg Pakora,Bread roll,Gol Gappe,Besan Chilla,Mini Pizza,Khasta Kachori
+Accompaniment,Tomato Ketchup,,Tomato Ketchup,,Mint & Saunt Chatney,,Tomato Ketchup
 Tea/Coffee,Tea/Coffee ,Tea/Coffee ,Tea/Coffee ,Tea/Coffee ,Tea/Coffee ,Tea/Coffee ,Tea/Coffee 
 ,,,,,,,
-Raita/Soup,Rasam,Hot & Saur Soup,Spinach Soup,Tomato Soup,Shorba,Lemon Rasam,Veg.Soup
+Raita/Soup,Potato Raita,Corn Soup,Boondi Raita,Tomato Soup,Lauki Raita,Lemon Rasam,Veg.Soup
 SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar
-Composite Salad,Kachumber Salad,Macaroni Salad,Chef Spe.Salads,Cucumber Mayo Salad,Greek Salad,Toast Salad,
-DAL,Dal Dhaba,Dal Makhani,Curd,Lobia Masala, Dal Palak,Luaki Chana Dal,Moong Masoor Dal
-GRAVY VEG,Subz Miloni,Veg Kofta,Boiled Veg,Gutta Curry,Malai Kofta,Avil,Paneer Makhani
-DRY VEG,Cabbage Matar ,Lauki Masala,Masala Khichdi ,Mix Veg,Gajar Matar,Aloo Tamatar,Veg.Patiala
-NON VEG,N/A,N/A,N/A,N/A,N/A,N/A,Fish Amritsari
-RICE,Jeera Rice,Plain Rice,N/A ,Onion Rice,Plain rice,Steam Rice,Plain Rice
-ROTI,Roti,Roti,Asst. Bread,Roti,Chapatti,,Chapatti
-SWEET,,,Fruit Custard,,Shrikhand,, 
+Composite Salad,Crispy Noodles,Macroni ,Chef Spe.Salads,Cucumber Yogurt Salad,Greek Salad,Toast Salad,Achari Onion
+DAL,Dal Banjara,Arhar dal,Rajma Masala,Dal Makhani,Rajasthani Dal ,Chana Dal Tadka,Moong Masoor Dal
+GRAVY VEG, Pasta In Red Sauce,Subz Miloni,Veg Kofta,Kashmiri Dum Aloo,Boiled Veg,Malai Kofta,Shahi Paneer
+DRY VEG,Corn Palak ,Jalfrezi,Tinda Masala,Keema Matar Masala,Gutta Curry,Gajar Methi Matar,Gobhi Hara Pyaz
+NON VEG,N/A,N/A,N/A,N/A,N/A,N/A,Chicken Kaali Mirch
+RICE,Jeera Rice,Plain Rice,Peas Pulao,Onion Rice,Plain rice,Steam Rice,Plain Rice
+ROTI,Makke ki Roti,Chapatti,Chapatti,Chapatti,Chapatti,Chapatti,Chapatti
+SWEET,,,Lemon Suffle,,Seviyan Kheer ,, 
+,,,,,,,
 ,,,,,,,
 ,,,,,,,
