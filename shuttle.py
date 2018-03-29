@@ -22,7 +22,7 @@ def get_shuttle(message_text):
 		    times_campus = [630,645,700,715,730,800,830,900,930,1000,1100,1200,1400,1600,1630,1700,1720,1740,1800,1830,1900,1930,2000,2100,2200,-1]
 
 		# Start generating return message
-		return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run from Ashoka to Jahangirpuri at:"
+		return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nToday, shuttles will run from Ashoka to Jahangirpuri at:"
 
 		# Convert time to integer to search in list of times
 		my_time = int(my_time.strftime('%H%M'))
@@ -68,7 +68,7 @@ def get_shuttle(message_text):
 		    times_metro = [730,800,820,840,900,920,940,1000,1030,1100,1200,1400,1600,1700,1730,1800,1830,1900,1930,2000,2030,2100,2130,2200,2300,-1]
 
 		# Start generating return message
-		return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nThe next three shuttles will run from Jahangirpuri to Ashoka at:"
+		return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nToday, shuttles will run from Jahangirpuri to Ashoka at:"
 
 		# Convert time to integer to search in list of times
 		my_time = int(my_time.strftime('%H%M'))
