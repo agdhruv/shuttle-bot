@@ -44,7 +44,7 @@ def get_shuttle(message_text):
 		        low = mid + 1
 		ans_index = low
 
-		for i in range(low,low+3):
+		for i in range(low, len(low)):
 		    if times_campus[i] == -1:
 		        return_message += "\nNo more shuttles today."
 		        break
