@@ -15,11 +15,11 @@ def get_shuttle(message_text):
 
 		# Make list with times of shuttles
 		if my_day=="Saturday" or my_day=="Sunday":
-		    times_campus = [700,800,830,900,930,1000,1030,1100,1200,1300,1400,1430,1500,1530,1600,1700,1730,1800,1830,1900,1930,2000,2100,2200,-1]
+		    times_campus = [700,730,800,830,900,930,1000,1030,1100,1130,1200,1300,1400,1500,1600,1700,1730,1800,1830,1900,2000,2100,2200,-1]
 		elif my_day=="Friday":
-		    times_campus = [630,645,700,715,730,800,830,900,930,1000,1100,1200,1300,1400,1500,1600,1630,1700,1720,1740,1800,1830,1900,1930,2000,2100,2200,-1]
+		    times_campus = [700,730,800,830,900,930,1000,1100,1200,1300,1400,1500,1600,1700,1730,1800,1830,1900,1930,2000,2100,2200,-1]
 		else:
-		    times_campus = [630,645,700,715,730,800,830,900,930,1000,1100,1200,1400,1600,1630,1700,1720,1740,1800,1830,1900,1930,2000,2100,2200,-1]
+		    times_campus = [700,730,800,830,900,930,1000,1100,1200,1300,1400,1500,1600,1700,1730,1800,1830,1900,1930,2000,2100,2200,-1]
 
 		# Start generating return message
 		return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nToday, shuttles will run from Ashoka to Jahangirpuri at:"
@@ -52,6 +52,8 @@ def get_shuttle(message_text):
 		    next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
 		    return_message += "\n" + next_shuttle
 
+		return_message += "\n\nVikas Antil (Admin): +91 8222930514"
+
 	# Configure to tell you schedule at Jahangirpuri Metro Station
 	elif message_text=="SHUTTLE METRO":
 
@@ -61,11 +63,11 @@ def get_shuttle(message_text):
 
 		# Make list with times of shuttles
 		if my_day=="Saturday" or my_day=="Sunday":
-		    times_metro = [800,900,930,1000,1030,1100,1200,1300,1400,1500,1530,1600,1700,1800,1830,1900,1930,2000,2030,2100,2130,2200,2245,2300,-1]
+		    times_metro = [800,830,900,930,1000,1030,1100,1200,1300,1400,1500,1600,1700,1730,1800,1900,2000,2030,2100,2130,2200,2245,2300,-1]
 		elif my_day=="Friday":
-		    times_metro = [730,800,820,840,900,920,940,1000,1030,1100,1200,1300,1400,1500,1600,1700,1730,1800,1830,1900,1930,2000,2030,2100,2130,2200,2300,-1]
+		    times_metro = [800,830,900,930,1000,1030,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2030,2100,2130,2200,2245,2300,-1]
 		else:
-		    times_metro = [730,800,820,840,900,920,940,1000,1030,1100,1200,1400,1600,1700,1730,1800,1830,1900,1930,2000,2030,2100,2130,2200,2300,-1]
+		    times_metro = [800,830,900,930,1000,1030,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2030,2100,2130,2200,2245,2300,-1]
 
 		# Start generating return message
 		return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\n\nToday, shuttles will run from Jahangirpuri to Ashoka at:"
@@ -98,7 +100,7 @@ def get_shuttle(message_text):
 		    next_shuttle = next_shuttle[:-2] + ":" + next_shuttle[-2:]
 		    return_message += "\n" + next_shuttle
 
-		return_message += "\n\nGuard at Jahangirpuri: +91 8222930509"
+		return_message += "\n\nGuard at Jahangirpuri: +91 8222930509\nVikas Antil (Admin): +91 8222930514"
 
 	# Return the message to callee
 	return return_message
