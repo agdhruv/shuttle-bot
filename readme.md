@@ -8,7 +8,7 @@ I initially cloned the above repository to get everything up and running, and th
 
 ## How does it work?
 
-For the shuttle schedule, it uses `binary search` to decide what is the next biggest integer after the integer reresenting the current time in the `list` that contains the shuttle timings.
+For the shuttle schedule, it uses `binary search` to decide what is the next biggest integer after the integer representing the current time in the `list` that contains the shuttle timings.
 
 For the Menu, it uses file handling with a `.csv` file that holds the menu for each week. The menu for each week will have to be updated manually.
 
