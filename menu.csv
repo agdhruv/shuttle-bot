@@ -16,7 +16,7 @@ DRY VEG,Aloo Jeera ,Mix Veg,Lauki Lababdar,Baigan Bharta,Gajar Mattar,Bhindi Mas
 NON VEG,N/A,N\A,Chicken Tadka,N/A,Chicken Chettinad,N/A,N\A
 RICE,Steam rice,Plain Rice, Jeera Rice,Plain Rice , Steam Rice ,Onion Pulao ,Plain Rice
 ROTI,Tawa Roti,Chapati, Chapati,Chapati,Chapati,Roti,Chapati
-SWEET,Mango Rice Kheer,Sweet Guldana,,Besan Burfi,,Suji Halwa,Coconut Laddoo
+SWEET,Mango Rice Kheer,Sweet Guldana,,Besan Burfi,,Suji Halwa,Coconut Laddo
 ,,,,,,,
 Snack,Butter Croissant,Vada Pao,Veg Puff,Stuffed Kulcha,Veg Noodles,Oats Muffin,Bhel Puri
 Accompaniment,,Mint Chutney,Tomato Ketchup,Tomato Ketchup,Tomato Ketchup,,Mint & Saunt Chutney
@@ -26,10 +26,11 @@ Raita/Soup,Mojito,Masala Lemonade,Masala Chach,Rose Water,Cucumber Raita,Orange 
 SALAD,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar,Salad Bar Salad
 Composite Salad,Greek Salad,Pickle Salad,Macaroni Salad,Noodles Salad,Curd Kachumber ,Toast Salad,Beetroot
 DAL,Red Malka ,Cholle Amritsari,Chana Dal Tadka,Dal Makhani,Kadi Pakora,Arhar Dal ,Dal Tadka
-GRAVY VEG,Dum Aloo,Palak Corn,Tori Masala,Veg Kofta Curry,Subz Milloni,Baked Veg,Shahi Paneer
-DRY VEG,Tawa Veg,Aloo Baigan,Bhindi Masala,Soya Keema Masala,Cabbage Matar ,Aloo Achari,Karela Masala
+GRAVY VEG,Dum Aloo,Princes,Tori Masala,Veg Kofta Curry,Subz Milloni,Baked Veg,Shahi Paneer
+DRY VEG,Boiled Veg,Aloo Baigan,Grilled Veg,Veg Delight,Hungos Potasi,Aloo Achari,Baked Macaroni
 NON VEG,N/A,N/A,N/A,N/A,N/A,N/A,Fish Curry
 RICE,Jeera Rice,Mint rice,Plain rice,Onion Rice,Plain rice,Coriander rice,Plain Rice
 ROTI,Chapati,Roti,Chapati,Roti,Chapati,Roti,Chapati
 SWEET,,,Pastry ,,Malpua,, 
+,,,,,,,
 ,,,,,,,
