@@ -59,7 +59,7 @@ def webhook():
                     if message_text in shuttle_command_names:
                         return_message = shuttle.get_shuttle(message_text)
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-                        send_message(sender_id, return_message)
+                        send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
                     
                     # Then check if the message sent is any of the 3 MENU commands
                     elif message_text in menu_command_names:
@@ -72,20 +72,20 @@ def webhook():
 
                         # Finally send the message
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-                        send_message(sender_id, return_message)
+                        send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
 
                     # Then check if the message sent is any of the directory commands
                     elif message_text in directory_command_names:
                         return_message = directory.get_directory(message_text)
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-                        send_message(sender_id, return_message)
+                        send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
 
                     # If it is neither of the valid commands
                     else:
                         # For the shitty Facebook review process
                         return_message = "Invalid command.\n\n1. SHUTTLE HELP to know more SHUTTLE commands.\n2. MENU BREAKFAST (LUNCH, SNACKS, DINNER) for mess menu.\n3. INFIRMARY, MAINTENANCE, HOUSEKEEPING for contact details."
                         return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-                        send_message(sender_id, return_message)
+                        send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
 
     return "ok", 200
 
