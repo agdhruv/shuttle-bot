@@ -102,46 +102,23 @@ def send_message(recipient_id, message_text):
         "Content-Type": "application/json"
     }
     data = json.dumps({
-        "get_started":{
-            "payload":"<GET_STARTED_PAYLOAD>"
-        },
         "recipient": {
             "id": recipient_id
         },
-        # "message": {
-        #     "text": message_text
-        # }
         "message": {
-            "attachment":{
-                "type":"template",
-                "payload":{
-                    "template_type":"generic",
-                    "elements":[
-                        {
-                            "title":"Welcome!",
-                            "image_url":"https://petersfancybrownhats.com/company_image.png",
-                            "subtitle":"We have the right hat for everyone.",
-                            "default_action": {
-                                "type": "web_url",
-                                "url": "https://petersfancybrownhats.com/view?item=103",
-                                "webview_height_ratio": "tall",
-                            },
-                            "buttons":[
-                                {
-                                    "type":"web_url",
-                                    "url":"https://petersfancybrownhats.com",
-                                    "title":"View Website"
-                                },
-                                {
-                                    "type":"postback",
-                                    "title":"Start Chatting",
-                                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
-                                }              
-                            ]      
-                        }
-                    ]
+            "text": "Hi from the bot",
+            "quick_replies": [
+                {
+                    "content_type":"text",
+                    "title":"Quick 1",
+                    "payload":"quick1"
+                },
+                {
+                    "content_type":"text",
+                    "title":"Quick 2",
+                    "payload":"quick2"
                 }
-            }
+            ]
         }
     })
 
