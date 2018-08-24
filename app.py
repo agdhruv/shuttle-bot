@@ -36,58 +36,57 @@ def webhook():
     data = request.get_json()
     log(data)
 
-    # if data["object"] == "page":
+    if data["object"] == "page":
 
-    #     for entry in data["entry"]:
-    #         for messaging_event in entry["messaging"]:
+        for entry in data["entry"]:
 
-    #             if messaging_event.get("message"):  # someone sent us a message
+            webhook_event = entry["messaging"][0]
 
-    #                 sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-    #                 recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-    #                 if "text" in messaging_event["message"]:
-    #                     message_text = messaging_event["message"]["text"]  # the message's text
-    #                 else:
-    #                     message_text = "Not identified"
+            if webhook_event.get("message"):  # someone sent us a message
+                sender_id = webhook_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                recipient_id = webhook_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                if "text" in webhook_event["message"]:
+                    message_text = webhook_event["message"]["text"]  # the message's text
+                else:
+                    message_text = "Not identified"
 
-    #                 message_text = message_text.upper() # convert to uppercase to make things easier
+                message_text = message_text.upper() # convert to uppercase to make things easier
 
-    #                 shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
-    #                 menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
-    #                 directory_command_names = ["INFIRMARY", "MAINTENANCE", "HOUSEKEEPING"]
-    #                 admin_command_names = ["ADMIN MENU"]
+                shuttle_command_names = ["SHUTTLE HELP","SHUTTLE CAMPUS","SHUTTLE METRO"]
+                menu_command_names = ["MENU BREAKFAST","MENU LUNCH","MENU SNACKS","MENU DINNER"]
+                directory_command_names = ["INFIRMARY", "MAINTENANCE", "HOUSEKEEPING"]
 
-    #                 # First check if the message sent is any of the 3 SHUTTLE commands
-    #                 if message_text in shuttle_command_names:
-    #                     return_message = shuttle.get_shuttle(message_text)
-    #                     return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-    #                     send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
-                    
-    #                 # Then check if the message sent is any of the 3 MENU commands
-    #                 elif message_text in menu_command_names:
+                # First check if the message sent is any of the 3 SHUTTLE commands
+                if message_text in shuttle_command_names:
+                    return_message = shuttle.get_shuttle(message_text)
+                    return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
+                    send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
+                
+                # Then check if the message sent is any of the 3 MENU commands
+                elif message_text in menu_command_names:
 
-    #                     return_message = menu.get_menu(message_text)
+                    return_message = menu.get_menu(message_text)
 
-    #                     # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
-    #                     printable = set(string.printable)
-    #                     filter(lambda x: x in printable, return_message)
+                    # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
+                    printable = set(string.printable)
+                    filter(lambda x: x in printable, return_message)
 
-    #                     # Finally send the message
-    #                     return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-    #                     send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
+                    # Finally send the message
+                    return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
+                    send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
 
-    #                 # Then check if the message sent is any of the directory commands
-    #                 elif message_text in directory_command_names:
-    #                     return_message = directory.get_directory(message_text)
-    #                     return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-    #                     send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
+                # Then check if the message sent is any of the directory commands
+                elif message_text in directory_command_names:
+                    return_message = directory.get_directory(message_text)
+                    return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
+                    send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
 
-    #                 # If it is neither of the valid commands
-    #                 else:
-    #                     # For the shitty Facebook review process
-    #                     return_message = "Invalid command.\n\n1. SHUTTLE HELP to know more SHUTTLE commands.\n2. MENU BREAKFAST (LUNCH, SNACKS, DINNER) for mess menu.\n3. INFIRMARY, MAINTENANCE, HOUSEKEEPING for contact details."
-    #                     return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
-    #                     send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
+                # If it is neither of the valid commands
+                else:
+                    # For the shitty Facebook review process
+                    return_message = "Invalid command.\n\n1. SHUTTLE HELP to know more SHUTTLE commands.\n2. MENU BREAKFAST (LUNCH, SNACKS, DINNER) for mess menu.\n3. INFIRMARY, MAINTENANCE, HOUSEKEEPING for contact details."
+                    return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
+                    send_message(sender_id, 'Due to recent changes in the way this information is sent out to the students, this bot is currently down and in the process of being upgraded. Thank you for your patience.')
 
     return "ok", 200
 
@@ -106,10 +105,43 @@ def send_message(recipient_id, message_text):
         "recipient": {
             "id": recipient_id
         },
+        # "message": {
+        #     "text": message_text
+        # }
         "message": {
-            "text": message_text
+            "attachment":{
+                "type":"template",
+                "payload":{
+                    "template_type":"generic",
+                    "elements":[
+                        {
+                            "title":"Welcome!",
+                            "image_url":"https://petersfancybrownhats.com/company_image.png",
+                            "subtitle":"We have the right hat for everyone.",
+                            "default_action": {
+                                "type": "web_url",
+                                "url": "https://petersfancybrownhats.com/view?item=103",
+                                "webview_height_ratio": "tall",
+                            },
+                            "buttons":[
+                                {
+                                    "type":"web_url",
+                                    "url":"https://petersfancybrownhats.com",
+                                    "title":"View Website"
+                                },
+                                {
+                                    "type":"postback",
+                                    "title":"Start Chatting",
+                                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                                }              
+                            ]      
+                        }
+                    ]
+                }
+            }
         }
     })
+    
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
