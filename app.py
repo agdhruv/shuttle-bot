@@ -102,6 +102,9 @@ def send_message(recipient_id, message_text):
         "Content-Type": "application/json"
     }
     data = json.dumps({
+        "get_started":{
+            "payload":"<GET_STARTED_PAYLOAD>"
+        },
         "recipient": {
             "id": recipient_id
         },
@@ -141,7 +144,7 @@ def send_message(recipient_id, message_text):
             }
         }
     })
-    
+
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
