@@ -34,6 +34,7 @@ def verify():
 def webhook():
     # endpoint for processing incoming messaging events
     data = request.get_json()
+    log("hey bro")
     log(data)
 
     if data["object"] == "page":
@@ -42,7 +43,14 @@ def webhook():
 
             webhook_event = entry["messaging"][0]
 
-            if webhook_event.get("message"):  # someone sent us a message
+            if webhook_event.get("postback"): # someone used a postback button to send a message
+                sender_id = webhook_event["sender"]["id"]
+                recipient_id = webhook_event["recipient"]["id"]
+                received_postback = webhook_event["postback"]
+                payload = received_postback["payload"]
+                send_message(sender_id, payload)
+
+            elif webhook_event.get("message"):  # someone sent us a message
                 sender_id = webhook_event["sender"]["id"]        # the facebook ID of the person sending you the message
                 recipient_id = webhook_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                 if "text" in webhook_event["message"]:
