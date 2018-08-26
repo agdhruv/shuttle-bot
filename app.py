@@ -3,7 +3,9 @@ import sys
 import json
 import string
 import requests
-from flask import Flask, request, send_from_directory
+from flask import Flask, request, send_from_directory, jsonify, render_template, abort
+from pymongo import MongoClient
+from pymongo.collection import ReturnDocument
 
 import shuttle
 import menu
@@ -15,6 +17,33 @@ app = Flask(__name__, static_url_path='/static')
 @app.route('/static/<path:path>')
 def send_static(path):
     return send_from_directory('static', path)
+
+
+# save the menu that comes from the webpage
+@app.route('/save_menu', methods = ['POST'])
+def save_menu():
+    data = request.get_json()
+    updated_document = update_menu_in_db(data)
+
+    return jsonify(updated_document), 200
+
+
+@app.route('/update_menu/<meal>', methods = ['GET'])
+def update_menu(meal):
+    meals = ['breakfast', 'lunch', 'snacks', 'dinner']
+
+    if meal not in meals:
+        return abort(400)
+
+    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "localhost:27017")
+    db = client['ashoka-bot']
+
+    meal_menu = db.menus.find_one({"meal": meal})
+
+    client.close()
+
+    return render_template('update_menu.html', meal_menu = meal_menu)
+
 
 # handle GET requests on root url
 @app.route('/', methods=['GET'])
@@ -28,6 +57,7 @@ def verify():
         return request.args["hub.challenge"], 200
 
     return 'Hello World', 200
+
 
 # handle POST requests on root url
 @app.route('/', methods=['POST'])
@@ -71,6 +101,35 @@ def webhook():
                 send_message(sender_id, return_data)
 
     return "ok", 200
+
+
+# save menu in db when received
+def update_menu_in_db(received_dict):
+    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "localhost:27017")
+    db = client['ashoka-bot']
+
+    meal = received_dict["meal"]
+
+    updated_document = db.menus.find_one_and_update(
+        {
+            'meal': received_dict['meal']
+        },
+        {
+            '$set': {
+                'menu': received_dict['menu'],
+                'timings': received_dict['timings']
+            }
+        },
+        projection = {
+            '_id': False
+        },
+        return_document = ReturnDocument.AFTER,
+        upsert = False
+    )
+
+    client.close()
+
+    return updated_document
 
 
 # pass the text received and return the message to be sent back to the user
@@ -120,27 +179,6 @@ def send_message(recipient_id, message_text):
         "Content-Type": "application/json"
     }
 
-    # data = json.dumps({
-    #     "recipient": {
-    #         "id": recipient_id
-    #     },
-    #     "message": {
-    #         "text": message_text,
-    #         "quick_replies": [
-    #             {
-    #                 "content_type":"text",
-    #                 "title":"Quick 1",
-    #                 "payload":"quick1"
-    #             },
-    #             {
-    #                 "content_type":"text",
-    #                 "title":"Quick 2",
-    #                 "payload":"quick2"
-    #             }
-    #         ]
-    #     }
-    # })
-
     data = json.dumps({
         "recipient": {
             "id": recipient_id
@@ -155,10 +193,12 @@ def send_message(recipient_id, message_text):
         log(r.status_code)
         log(r.text)
 
+
 # simple function for logging to stdout on heroku
 def log(message):
     print str(message)
     sys.stdout.flush()
+
 
 # start the server
 if __name__ == '__main__':
@@ -166,4 +206,3 @@ if __name__ == '__main__':
 
 
 
-    

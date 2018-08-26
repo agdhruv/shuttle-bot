@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Update Mess Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	<link rel="stylesheet" href="/static/css/update_menu.css">
+</head>
+<body>
+
+	<div class="navbar-fixed">
+	    <nav>
+			<div class="nav-wrapper">
+				<ul class="right">
+					<li><a href="/update_menu/breakfast">Breakfast</a></li>
+					<li><a href="/update_menu/lunch">Lunch</a></li>
+					<li><a href="/update_menu/snacks">Snacks</a></li>
+					<li><a href="/update_menu/dinner">Dinner</a></li>
+				</ul>
+			</div>
+	    </nav>
+	</div>
+
+	<div class="container">
+		
+		<div class="row">
+			<h2 class="col s12 center">
+				Update {{meal_menu['meal']|title}} Menu
+			</h2>
+		</div>
+		<div class="row">
+			<form class="col s12" id="menu-form" data-meal="{{meal_menu['meal']}}">
+				<div class="row">
+
+					<div class="col s12 m8 offset-m2">
+						<div class="timings weekday">
+							<h5>Timings</h5>
+							<div class="input-field">
+								<input type="text" value="{{meal_menu['timings']}}">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col s12 m8 offset-m2">
+						<div class="everyday weekday">
+							<h5>Everyday</h5>
+							{% for item in meal_menu['menu']['everyday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="monday weekday">
+							<h5>Monday</h5>
+							{% for item in meal_menu['menu']['monday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="tuesday weekday">
+							<h5>Tuesday</h5>
+							{% for item in meal_menu['menu']['tuesday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="wednesday weekday">
+							<h5>Wednesday</h5>
+							{% for item in meal_menu['menu']['wednesday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="thursday weekday">
+							<h5>Thursday</h5>
+							{% for item in meal_menu['menu']['thursday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="friday weekday">
+							<h5>Friday</h5>
+							{% for item in meal_menu['menu']['friday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="saturday weekday">
+							<h5>Saturday</h5>
+							{% for item in meal_menu['menu']['saturday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="sunday weekday">
+							<h5>Sunday</h5>
+							{% for item in meal_menu['menu']['sunday'] %}
+								<div class="input-field">
+									<input type="text" value="{{item}}">
+									<i class="material-icons">clear</i>
+								</div>
+							{% endfor %}
+							<a class="waves-effect waves-light btn add-item">Add Item</a>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="weekday">
+							<button class="btn-large waves-effect waves-light green" type="submit" name="action">Save</button>
+						</div>
+					</div>
+
+				</div>
+				
+			</form>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+	<script src="/static/js/update_menu.js"></script>
+</body>
+</html>
