@@ -141,7 +141,7 @@ def get_menu(message_text):
 
 	return return_message
 
-get_menu('MENU LUNCH')
+# get_menu('MENU LUNCH')
 
 
 
