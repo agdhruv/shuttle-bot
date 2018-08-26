@@ -35,8 +35,8 @@ def update_menu(meal):
     if meal not in meals:
         return abort(400)
 
-    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "localhost:27017")
-    db = client['ashoka-bot']
+    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
+    db = client.get_default_database()
 
     meal_menu = db.menus.find_one({"meal": meal})
 
@@ -105,8 +105,8 @@ def webhook():
 
 # save menu in db when received
 def update_menu_in_db(received_dict):
-    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "localhost:27017")
-    db = client['ashoka-bot']
+    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
+    db = client.get_default_database()
 
     meal = received_dict["meal"]
 

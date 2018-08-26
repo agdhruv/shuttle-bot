@@ -119,8 +119,8 @@ def get_menu(message_text):
 	return_message = "The request was received on " + my_time.strftime('%A, %H:%M') + ".\nHere's the " + meal_asked + " menu for today.\n\n"
 
 	# get the menu for the day from the database
-	client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "localhost:27017")
-	db = client['ashoka-bot']
+	client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
+	db = client.get_default_database()
 
 	meal_menu = db.menus.find_one({"meal": meal_asked.lower()})
 
@@ -136,9 +136,9 @@ def get_menu(message_text):
 
 	# insert meal timings from the db
 	return_message += "\nMess timings for lunch are: {0}".format(timings)
-
-	client.close()
 	
+	client.close()
+
 	return return_message
 
 get_menu('MENU LUNCH')
