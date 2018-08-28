@@ -19,7 +19,7 @@ $("#menu-form").on('submit', function (e) {
 	var timings = $this.find('.timings input[type=text]').val();
 	var updated_menu = {
 		meal: meal,
-		timings: timings,
+		timings: timings.trim(),
 		menu: {}
 	}
 
@@ -28,7 +28,7 @@ $("#menu-form").on('submit', function (e) {
 		var items = [];
 
 		for (var i = 0; i < inputs.length; i++) {
-			items.push($(inputs[i]).val());
+			items.push($(inputs[i]).val().trim());
 		}
 
 		updated_menu.menu[day] = items;

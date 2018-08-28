@@ -10,6 +10,10 @@ div.weekday div.input-field input[type=text] {
 	width: calc(100% - 30px);
 }
 
+body.shuttle div.weekday div.input-field input[type=text] {
+	width: 100%;
+}
+
 div.weekday button[type=submit] {
 	width: 100%;
 	margin: 0px auto;

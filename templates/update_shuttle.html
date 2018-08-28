@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Update Shuttle Schedule</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	<link rel="stylesheet" href="/static/css/common.css">
+</head>
+<body class="shuttle">
+
+	<div class="navbar-fixed">
+	    <nav>
+			<div class="nav-wrapper">
+				<ul class="right">
+					<li><a href="/update_shuttle/campus">At Campus</a></li>
+					<li><a href="/update_shuttle/metro">At Metro Station</a></li>
+				</ul>
+			</div>
+	    </nav>
+	</div>
+
+	<div class="container">
+		
+		<div class="row">
+			<h2 class="col s12 center">
+				Update Schedule:<br>{{shuttle_schedule['route']|title}}
+			</h2>
+		</div>
+
+		<div class="row">
+			<form class="col s12" id="shuttle-form" data-origin="{{shuttle_schedule['origin']}}">
+				<div class="row">
+
+					<div class="col s12 m8 offset-m2">
+						<div class="everyday weekday">
+							<h5>Phone number of guard at <b>{{shuttle_schedule['origin']|title}}</b></h5>
+							<div class="input-field guard-phone">
+								<input type="text" value="{{shuttle_schedule['phone']}}">
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m8 offset-m2">
+						<div class="everyday weekday">
+							<h5>Monday to Thursday</h5>
+							<div class="input-field">
+								<textarea id="weekdays" class="materialize-textarea">{{shuttle_schedule['schedule']['weekday']}}</textarea>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="everyday weekday">
+							<h5>Friday</h5>
+							<div class="input-field">
+								<textarea id="fridays" class="materialize-textarea">{{shuttle_schedule['schedule']['friday']}}</textarea>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="everyday weekday">
+							<h5>Holidays</h5>
+							<div class="input-field">
+								<textarea id="holidays" class="materialize-textarea">{{shuttle_schedule['schedule']['holiday']}}</textarea>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m8 offset-m2">
+						<div class="weekday">
+							<button class="btn-large waves-effect waves-light green" type="submit" name="action">Save</button>
+						</div>
+					</div>
+
+				</div>
+				
+			</form>
+		</div>
+		
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+	<script src="/static/js/update_shuttle.js"></script>
+</body>
+</html>

@@ -4,12 +4,14 @@ import json
 import string
 import requests
 from flask import Flask, request, send_from_directory, jsonify, render_template, abort
-from pymongo import MongoClient
-from pymongo.collection import ReturnDocument
 
 import shuttle
 import menu
 import directory
+
+from db_operations.update_menu import update_menu_in_db
+from db_operations.update_shuttle import update_schedule_in_db
+from db_operations.connect import connect
 
 app = Flask(__name__, static_url_path='/static')
 
@@ -28,6 +30,7 @@ def save_menu():
     return jsonify(updated_document), 200
 
 
+# route to show ui form to user to update menu data
 @app.route('/update_menu/<meal>', methods = ['GET'])
 def update_menu(meal):
     meals = ['breakfast', 'lunch', 'snacks', 'dinner']
@@ -35,7 +38,7 @@ def update_menu(meal):
     if meal not in meals:
         return abort(400)
 
-    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
+    client = connect(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
     db = client.get_default_database()
 
     meal_menu = db.menus.find_one({"meal": meal})
@@ -43,6 +46,33 @@ def update_menu(meal):
     client.close()
 
     return render_template('update_menu.html', meal_menu = meal_menu)
+
+
+# save the menu that comes from the webpage
+@app.route('/save_shuttle', methods = ['POST'])
+def save_shuttle():
+    data = request.get_json()
+    updated_schedule = update_schedule_in_db(data)
+
+    return jsonify(data), 200
+
+
+# route to show ui form to user to update shuttle schedule data
+@app.route('/update_shuttle/<origin>', methods = ['GET'])
+def update_shuttle(origin):
+    origins = ['campus', 'metro']
+
+    if origin not in origins:
+        return abort(400)
+
+    client = connect(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
+    db = client.get_default_database()
+
+    shuttle_schedule = db.shuttle_schedules.find_one({"origin": origin})
+
+    client.close()
+
+    return render_template('update_shuttle.html', shuttle_schedule = shuttle_schedule)
 
 
 # handle GET requests on root url
@@ -101,36 +131,6 @@ def webhook():
                 send_message(sender_id, return_data)
 
     return "ok", 200
-
-
-# save menu in db when received
-def update_menu_in_db(received_dict):
-    client = MongoClient(os.environ["MONGODB_URI"] if os.environ.get("MONGODB_URI") else "mongodb://localhost:27017/ashoka-bot")
-    db = client.get_default_database()
-
-    meal = received_dict["meal"]
-
-    updated_document = db.menus.find_one_and_update(
-        {
-            'meal': received_dict['meal']
-        },
-        {
-            '$set': {
-                'menu': received_dict['menu'],
-                'timings': received_dict['timings']
-            }
-        },
-        projection = {
-            '_id': False
-        },
-        return_document = ReturnDocument.AFTER,
-        upsert = False
-    )
-
-    client.close()
-
-    return updated_document
-
 
 # pass the text received and return the message to be sent back to the user
 def get_relevant_data(message_text):
