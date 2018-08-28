@@ -43,7 +43,7 @@ def get_shuttle(message_text):
 	return return_message
 
 
-get_shuttle('SHUTTLE METRO')
+# get_shuttle('SHUTTLE METRO')
 
 
 
