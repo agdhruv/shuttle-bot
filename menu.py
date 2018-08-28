@@ -34,11 +34,9 @@ def get_menu(message_text):
 
 	client.close()
 
-	return_message = return_message.decode("ascii", errors="ignore").encode()
-
 	return return_message
 
-# get_menu('MENU LUNCH')
+# get_menu('MENU SNACKS')
 
 
 

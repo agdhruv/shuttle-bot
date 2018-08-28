@@ -159,10 +159,6 @@ def get_relevant_data(message_text):
     elif message_text in menu_command_names:
         return_message = menu.get_menu(message_text)
 
-        # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
-        printable = set(string.printable)
-        filter(lambda x: x in printable, return_message)
-
     # Then check if the message sent is any of the phone directory commands
     elif message_text in directory_command_names:
         return_message = directory.get_directory(message_text)
@@ -171,6 +167,10 @@ def get_relevant_data(message_text):
     else:
         # For the shitty Facebook review process
         return_message = "Invalid command. Use the menu at the bottom of this screen to get desired information."
+
+    # wow, that was new :O. Basically, if there are non-ASCII characters, skip them
+    printable = set(string.printable)
+    filter(lambda x: x in printable, return_message)
 
     # Add this message at the end of every message being sent back hehe
     return_message += '\n\nIf you like this bot and have a GitHub account, I\'ll be grateful if you can star the repository here: https://github.com/agdhruv/shuttle-bot'
