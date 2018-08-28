@@ -15,6 +15,7 @@
 	    <nav>
 			<div class="nav-wrapper">
 				<ul class="right">
+					<li><a href="/">Home</a></li>
 					<li><a href="/update_menu/breakfast">Breakfast</a></li>
 					<li><a href="/update_menu/lunch">Lunch</a></li>
 					<li><a href="/update_menu/snacks">Snacks</a></li>
@@ -150,15 +151,28 @@
 
 					<div class="col s12 m8 offset-m2">
 						<div class="weekday">
-							<button class="btn-large waves-effect waves-light green" type="submit" name="action">Save</button>
+							<button data-target="modal1" class="btn-large waves-effect waves-light green modal-trigger" type="submit" name="action">Save</button>
 						</div>
 					</div>
-
 				</div>
-				
 			</form>
 		</div>
 
+	</div>
+
+	<div id="modal1" class="modal bottom-sheet">
+		<form id="submit-password">
+		    <div class="modal-content">
+				<h4>Password</h4>
+
+				<div class="input-field">
+					<input type="password" placeholder="Enter password here" id="input-password" required>
+				</div>
+		    </div>
+		    <div class="modal-footer">
+				<button class="waves-effect btn-flat">Submit</button>
+		    </div>
+		</form>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -25,6 +25,12 @@ def send_static(path):
 @app.route('/save_menu', methods = ['POST'])
 def save_menu():
     data = request.get_json()
+
+    password = os.environ["admin_password"] if os.environ.get("admin_password") else "whatever"
+    
+    if (data['password'] != password):
+        return jsonify({'error':'Incorrect password'}), 403
+
     updated_document = update_menu_in_db(data)
 
     return jsonify(updated_document), 200
@@ -52,6 +58,12 @@ def update_menu(meal):
 @app.route('/save_shuttle', methods = ['POST'])
 def save_shuttle():
     data = request.get_json()
+
+    password = os.environ["admin_password"] if os.environ.get("admin_password") else "whatever"
+    
+    if (data['password'] != password):
+        return jsonify({'error':'Incorrect password'}), 403
+        
     updated_schedule = update_schedule_in_db(data)
 
     return jsonify(data), 200
@@ -86,7 +98,7 @@ def verify():
             return "Verification token mismatch", 403
         return request.args["hub.challenge"], 200
 
-    return 'Hello World', 200
+    return render_template('index.html'), 200
 
 
 # handle POST requests on root url

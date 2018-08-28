@@ -1,3 +1,5 @@
+$('.modal').modal();
+
 $('body').on('click', 'div.weekday div.input-field i', function () {
 	$(this).closest('div.input-field').remove();
 });
@@ -12,12 +14,19 @@ $('body').on('click', 'div.weekday a.add-item', function () {
 
 $("#menu-form").on('submit', function (e) {
 	e.preventDefault();
+});
 
-	var $this = $(this);
+$('#submit-password').on('submit', function (e) {
+	e.preventDefault();
+
+	var password = $('#input-password').val().trim();
+	
+	var $form = $("#menu-form");
 	var days = ['everyday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
-	var meal = $this.attr('data-meal');
-	var timings = $this.find('.timings input[type=text]').val();
+	var meal = $form.attr('data-meal');
+	var timings = $form.find('.timings input[type=text]').val();
 	var updated_menu = {
+		password: password,
 		meal: meal,
 		timings: timings.trim(),
 		menu: {}
@@ -46,8 +55,25 @@ $("#menu-form").on('submit', function (e) {
 		success: function (data) {
 			$("#menu-form button[type=submit]").removeAttr('disabled');
 			M.toast({html: 'Data saved!'});
+			$('#input-password').val('');
+			$('#modal1').modal('close');
+		},
+		error: function (error) {
+			$("#menu-form button[type=submit]").removeAttr('disabled');
+			M.toast({html: error.responseJSON.error + '. Try again.'});
+			$('#input-password').val('');
 		}
 	});
-
-	
 });
+
+
+
+
+
+
+
+
+
+
+
+
