@@ -15,7 +15,7 @@ I initially cloned the above repository to get everything up and running, and th
 It uses the time at which the message was *received* by the system, and not the time at which the message was sent by the user.
 
 **Update:**
-The striked-through description above proved to be cumbersome because of the ever-changing format in which the Ashoka University administration sent out the shuttle schedule/mess menu. Hence, I later replaced that system with a user interface (UI). This UI could be used by anyone having a password (maybe someone in the Student Government) to update the database that the bot accesses. This UI can be found at: https://sheltered-woodland-59238.herokuapp.com/.
+The striked-through description above proved to be cumbersome because of the ever-changing format in which the Ashoka University administration sent out the shuttle schedule/mess menu. Hence, I replaced that system with a user interface (UI). This UI could be used by anyone having a password (maybe someone in the Student Government) to update the database that the bot accesses. This UI can be found at: https://sheltered-woodland-59238.herokuapp.com/.
 
 ## Commands Allowed
 
@@ -27,6 +27,10 @@ The striked-through description above proved to be cumbersome because of the eve
 	4. MENU SNACKS
 	5. MENU DINNER
 
+Example screenshot:
+![Screenshot of the Messenger bot](static/screenshot.png)
+
 ## Recognition
 Students loved this bot! There were regular requests for adding more and more features. This bot served the Ashoka community for about 3 years, after which no one volunteered to update data on it. In total, it served more than 800 unique users. It sent and received about 200,000 messages!
+
 It was also recognized by the Office of Student Life (OSL) with the "Creative and Entrepreneurial Initiatives" award in the Annual Merit Awards ceremony in April 2018.
