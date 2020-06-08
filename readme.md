@@ -15,7 +15,7 @@ I initially cloned the above repository to get everything up and running, and th
 It uses the time at which the message was *received* by the system, and not the time at which the message was sent by the user.
 
 **Update:**
-The striked-through description above proved to be cumbersome because of the ever-changing format in which the Ashoka University administration sent out the shuttle schedule/mess menu. Hence, I replaced that system with a user interface (UI). This UI could be used by anyone having a password (maybe someone in the Student Government) to update the database that the bot accesses. This UI can be found at: https://sheltered-woodland-59238.herokuapp.com/.
+The striked-through description above involved parsing Excel files and/or PDFs to get data. This proved to be cumbersome because of the ever-changing format in which the Ashoka University administration sent out the shuttle schedule/mess menu. Hence, I replaced that system with a user interface (UI). This UI could be used by anyone having a password (maybe someone in the Student Government) to update the database that the bot accesses. This UI can be found at: https://sheltered-woodland-59238.herokuapp.com/.
 
 ## Commands Allowed
 
